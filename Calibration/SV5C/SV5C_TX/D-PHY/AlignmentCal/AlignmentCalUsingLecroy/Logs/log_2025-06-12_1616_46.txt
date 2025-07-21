@@ -1,0 +1,20 @@
+Pinetree (v 25.2.b1)
+Connecting to serialNum 'FTDI:INSV5T221127A'
+Connected to subPart 'SV5C_4L8G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INSV5T221127B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CDPTX01C009_FW07
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'sv5DptxAlignmentCalUsingKeysightScope'
+2025-06-12_1616_48
+--------------------------------------------------------------------------------
+********************************************************************************
+Exception occurred during Test run:
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+    mipiClockConfig1.addAttribute("maxWaitMillisForSetDataRate", 120000)
+AttributeError: 'SvtMipiClockConfig' object has no attribute 'addAttribute'
+Test took 1 millisecond
+--------------------------------------------------------------------------------
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\AlignmentCal\sv5DptxAlignmentCalUsingKeysightScope ***

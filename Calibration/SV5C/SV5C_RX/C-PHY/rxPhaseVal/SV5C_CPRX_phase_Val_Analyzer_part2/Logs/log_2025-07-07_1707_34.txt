@@ -1,0 +1,2094 @@
+Pinetree (v 25.1.1)
+Connecting to serialNum 'FTDI:INSV5R230620A'
+Connected to subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_A'
+Connecting to serialNum 'FTDI:INSV5R230620B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CCPRX01C007_FW00
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'SV5C_CPRX_phase_Val_Analyzer_part2'
+2025-07-07_1707_35
+--------------------------------------------------------------------------------
+TX: SV5C_4L8G_MIPI_CPHY_GENERATOR
+TX: serial number: 79-0057
+TX: FW: FWSV5CCPTX01C010 Revision: FW000003
+Serial Number: 89-0086
+Firmware Id: FWSV5CCPRX01C007
+Firmware revision: FW000000
+Hardware revision: E
+Doing eye scans at 4500.0Msps: Each wire seperately...
+Data Rate: 4500.000000
+Starting clock config setup
+New clock configuration
+Starting MipiCphyLaneList setup
+==Trial #0 for wireAB1_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+eyeScan1: BERT sync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1
+{'eyeCenterX': -51.8, 'eyeCenterY': 3.8, 'eyeWidth': 112.8, 'eyeHeight': 480.0, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -50.4, 'maskErrCount': None}
+3.8
+Starting MipiCphyLaneList setup
+==Trial #0 for wireAB1_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+eyeScan1: BERT sync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 33 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run2
+{'eyeCenterX': 59.1, 'eyeCenterY': 26.6, 'eyeWidth': 121.5, 'eyeHeight': 693.3, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': 59.0, 'maskErrCount': None}
+26.6
+Starting MipiCphyLaneList setup
+==Trial #0 for wireBC1_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+eyeScan1: BERT sync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run3
+{'eyeCenterX': 63.9, 'eyeCenterY': 8.3, 'eyeWidth': 125.0, 'eyeHeight': 520.0, 'voltageHigh': 630.0, 'voltageLow': -570.0, 'voltageSwing': 1200.0, 'voltageCenter': 30.0, 'uiMidpointX': 53.8, 'maskErrCount': None}
+8.3
+Starting MipiCphyLaneList setup
+==Trial #0 for wireBC1_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+eyeScan1: BERT sync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run4
+{'eyeCenterX': -17.0, 'eyeCenterY': 3.9, 'eyeWidth': 130.2, 'eyeHeight': 746.7, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -21.7, 'maskErrCount': None}
+3.9
+Starting MipiCphyLaneList setup
+==Trial #0 for wireCA1_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+eyeScan1: BERT sync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 33 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run5
+{'eyeCenterX': -31.5, 'eyeCenterY': -9.8, 'eyeWidth': 50.3, 'eyeHeight': 746.7, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -40.0, 'maskErrCount': None}
+-9.8
+Starting MipiCphyLaneList setup
+==Trial #0 for wireCA1_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+eyeScan1: BERT sync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run6
+{'eyeCenterX': 8.9, 'eyeCenterY': -23.1, 'eyeWidth': 69.4, 'eyeHeight': 693.3, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -6.1, 'maskErrCount': None}
+-23.1
+Starting MipiCphyLaneList setup
+==Trial #0 for wireAB2_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+eyeScan1: BERT sync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run7
+{'eyeCenterX': 74.5, 'eyeCenterY': -25.5, 'eyeWidth': 142.4, 'eyeHeight': 933.3, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': 75.5, 'maskErrCount': None}
+-25.5
+Starting MipiCphyLaneList setup
+==Trial #0 for wireAB2_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+eyeScan1: BERT sync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run8
+{'eyeCenterX': 42.0, 'eyeCenterY': 51.3, 'eyeWidth': 133.7, 'eyeHeight': 1040.0, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': 45.1, 'maskErrCount': None}
+51.3
+Starting MipiCphyLaneList setup
+==Trial #0 for wireBC2_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+eyeScan1: BERT sync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run9
+{'eyeCenterX': 57.5, 'eyeCenterY': 58.9, 'eyeWidth': 112.8, 'eyeHeight': 1093.3, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': 52.1, 'maskErrCount': None}
+58.9
+Starting MipiCphyLaneList setup
+==Trial #0 for wireBC2_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+eyeScan1: BERT sync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 33 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run10
+{'eyeCenterX': 25.2, 'eyeCenterY': 69.6, 'eyeWidth': 86.8, 'eyeHeight': 1013.3, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': 34.7, 'maskErrCount': None}
+69.6
+Starting MipiCphyLaneList setup
+==Trial #0 for wireCA2_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+eyeScan1: BERT sync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run11
+{'eyeCenterX': 36.1, 'eyeCenterY': -27.4, 'eyeWidth': 78.1, 'eyeHeight': 960.0, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': 30.4, 'maskErrCount': None}
+-27.4
+Starting MipiCphyLaneList setup
+==Trial #0 for wireCA2_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+eyeScan1: BERT sync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run12
+{'eyeCenterX': 4.4, 'eyeCenterY': 1.0, 'eyeWidth': 71.2, 'eyeHeight': 720.0, 'voltageHigh': 630.0, 'voltageLow': -570.0, 'voltageSwing': 1200.0, 'voltageCenter': 30.0, 'uiMidpointX': 2.6, 'maskErrCount': None}
+1.0
+Starting MipiCphyLaneList setup
+==Trial #0 for wireAB3_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+eyeScan1: BERT sync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run13
+{'eyeCenterX': 58.6, 'eyeCenterY': 40.6, 'eyeWidth': 130.2, 'eyeHeight': 506.7, 'voltageHigh': 630.0, 'voltageLow': -610.0, 'voltageSwing': 1240.0, 'voltageCenter': 10.0, 'uiMidpointX': 55.5, 'maskErrCount': None}
+40.6
+Starting MipiCphyLaneList setup
+==Trial #0 for wireAB3_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+eyeScan1: BERT sync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 33 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run14
+{'eyeCenterX': -12.5, 'eyeCenterY': 29.9, 'eyeWidth': 126.7, 'eyeHeight': 560.0, 'voltageHigh': 630.0, 'voltageLow': -570.0, 'voltageSwing': 1200.0, 'voltageCenter': 30.0, 'uiMidpointX': -11.3, 'maskErrCount': None}
+29.9
+Starting MipiCphyLaneList setup
+==Trial #0 for wireBC3_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+eyeScan1: BERT sync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run15
+{'eyeCenterX': -24.3, 'eyeCenterY': 3.1, 'eyeWidth': 125.0, 'eyeHeight': 520.0, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -24.3, 'maskErrCount': None}
+3.1
+Starting MipiCphyLaneList setup
+==Trial #0 for wireBC3_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+eyeScan1: BERT sync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 33 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run16
+{'eyeCenterX': -79.1, 'eyeCenterY': -60.8, 'eyeWidth': 144.1, 'eyeHeight': 560.0, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -81.6, 'maskErrCount': None}
+-60.8
+Starting MipiCphyLaneList setup
+==Trial #0 for wireCA3_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+eyeScan1: BERT sync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 33 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run17
+{'eyeCenterX': 35.3, 'eyeCenterY': 18.6, 'eyeWidth': 97.2, 'eyeHeight': 506.7, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': 37.3, 'maskErrCount': None}
+18.6
+Starting MipiCphyLaneList setup
+==Trial #0 for wireCA3_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+eyeScan1: BERT sync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 33 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run18
+{'eyeCenterX': -57.0, 'eyeCenterY': -17.6, 'eyeWidth': 107.6, 'eyeHeight': 480.0, 'voltageHigh': 550.0, 'voltageLow': -610.0, 'voltageSwing': 1160.0, 'voltageCenter': -30.0, 'uiMidpointX': -56.4, 'maskErrCount': None}
+-17.6
+Starting MipiCphyLaneList setup
+==Trial #0 for wireAB4_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+eyeScan1: BERT sync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 33 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run19
+{'eyeCenterX': -26.8, 'eyeCenterY': 60.2, 'eyeWidth': 76.4, 'eyeHeight': 733.3, 'voltageHigh': 630.0, 'voltageLow': -570.0, 'voltageSwing': 1200.0, 'voltageCenter': 30.0, 'uiMidpointX': -17.4, 'maskErrCount': None}
+60.2
+Starting MipiCphyLaneList setup
+==Trial #0 for wireAB4_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+eyeScan1: BERT sync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 33 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run20
+{'eyeCenterX': -47.0, 'eyeCenterY': -16.2, 'eyeWidth': 79.9, 'eyeHeight': 546.7, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -44.3, 'maskErrCount': None}
+-16.2
+Starting MipiCphyLaneList setup
+==Trial #0 for wireBC4_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+eyeScan1: BERT sync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run21
+{'eyeCenterX': -53.2, 'eyeCenterY': -89.0, 'eyeWidth': 118.0, 'eyeHeight': 813.3, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -42.6, 'maskErrCount': None}
+-89.0
+Starting MipiCphyLaneList setup
+==Trial #0 for wireBC4_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+eyeScan1: BERT sync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 49 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run22
+{'eyeCenterX': -78.8, 'eyeCenterY': 39.4, 'eyeWidth': 126.7, 'eyeHeight': 573.3, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -70.3, 'maskErrCount': None}
+39.4
+Starting MipiCphyLaneList setup
+==Trial #0 for wireCA4_0
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+eyeScan1: BERT sync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run23
+{'eyeCenterX': -36.3, 'eyeCenterY': 21.8, 'eyeWidth': 41.7, 'eyeHeight': 706.7, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -41.7, 'maskErrCount': None}
+21.8
+Starting MipiCphyLaneList setup
+==Trial #0 for wireCA4_1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+eyeScan1: BERT sync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+3% done
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+12% done (Time remaining: 50 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+21% done (Time remaining: 44 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+31% done (Time remaining: 39 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+40% done (Time remaining: 34 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+50% done (Time remaining: 28 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+59% done (Time remaining: 23 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+68% done (Time remaining: 18 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+78% done (Time remaining: 12 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+87% done (Time remaining: 7 seconds)
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> eyeScan Result:  eyeScan1_run24
+{'eyeCenterX': -22.8, 'eyeCenterY': 49.5, 'eyeWidth': 46.9, 'eyeHeight': 586.7, 'voltageHigh': 630.0, 'voltageLow': -650.0, 'voltageSwing': 1280.0, 'voltageCenter': -10.0, 'uiMidpointX': -26.9, 'maskErrCount': None}
+49.5
+Test finished
+Test took 24.2 minutes
+--------------------------------------------------------------------------------
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\Demo_SV5C_Rx_Cal_latest_FW_SW\SV5C_CPRX_calibration_Scripts\rxPhaseVal\SV5C_CPRX_phase_Val_Analyzer_part2 ***
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_CPHY_ANALYZER initialized

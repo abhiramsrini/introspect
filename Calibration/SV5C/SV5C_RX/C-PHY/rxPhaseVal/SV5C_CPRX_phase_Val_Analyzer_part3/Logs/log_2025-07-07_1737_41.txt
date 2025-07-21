@@ -1,0 +1,40 @@
+Pinetree (v 25.1.1)
+Connecting to serialNum 'FTDI:INSV5R230620A'
+Connected to subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_A'
+Connecting to serialNum 'FTDI:INSV5R230620B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CCPRX01C007_FW00
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'SV5C_CPRX_phase_Val_Analyzer_part3'
+2025-07-07_1737_42
+--------------------------------------------------------------------------------
+TX: SV5C_4L8G_MIPI_CPHY_GENERATOR
+TX: serial number: 79-0057
+TX: FW: FWSV5CCPTX01C010 Revision: FW000003
+Serial Number: 89-0086
+Firmware Id: FWSV5CCPRX01C007
+Firmware revision: FW000000
+Hardware revision: E
+Doing eye scans at 4500.0Msps: AB/BC/CA combined...
+Data Rate: 4500.000000
+Starting clock config setup
+Starting MipiCphyLaneList setup
+==Trial #0 for lane1
+Starting Eye Scan 'eyeScan1'
+Starting MipiCphyLaneList setup
+ERROR: Command processor (SV5C_4L8G_MIPI_CPHY_ANALYZER_A) not available (waited 75556 millisec) 
+  File "<string>", line 21, in runCombinedEyeScan
+    results = eyeScan1.run()
+********************************************************************************
+Test run aborted due to error
+Test took 2.4 minutes
+--------------------------------------------------------------------------------
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+Connecting to serialNum 'FTDI:INSV5R230620A'
+Connected to subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_A'
+Connecting to serialNum 'FTDI:INSV5R230620B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CCPRX01C007_FW00
+Doing post-connection initialization

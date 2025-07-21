@@ -1,0 +1,16 @@
+Pinetree (v 25.1.1)
+Connecting to serialNum 'FTDI:INSV5R230620A'
+Connected to subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_A'
+Connecting to serialNum 'FTDI:INSV5R230620B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CCPRX01C007_FW00
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'SV5C_CPRX_phase_Cal_Analyzer'
+2025-07-07_1559_31
+--------------------------------------------------------------------------------
+ERROR: waitForClientState: timed out (waited 20 s)
+********************************************************************************
+Test run aborted due to error
+Test took 46.0 seconds
+--------------------------------------------------------------------------------

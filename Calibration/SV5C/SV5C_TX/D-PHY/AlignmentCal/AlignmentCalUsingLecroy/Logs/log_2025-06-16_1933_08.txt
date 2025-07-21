@@ -1,0 +1,38 @@
+Pinetree (v 25.2.b1)
+Connecting to serialNum 'FTDI:INSV5T221127A'
+Connected to subPart 'SV5C_4L8G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INSV5T221127B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CDPTX01C009_FW07
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'DPTX_Cal_Lecroy'
+2025-06-16_1933_09
+--------------------------------------------------------------------------------
+Setting skew to 0
+Setting channels to display
+Clearing display
+Measuring D-PHY Lane 5...
+Measuring at 3126.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+ERROR: Exception when executing function 'measureDeltaTime':
+ValueError: could not convert string to float: 'No Data Available'
+Traceback (most recent call last):
+  File "<string>", line 20, in measureDeltaTime
+    currentDeltaTime += float(varAmp)
+  File "<string>", line 11, in performScopeCal
+    coarseDelay = measureDeltaTime(position)
+********************************************************************************
+Test run aborted due to error
+Test took 34.0 seconds
+--------------------------------------------------------------------------------
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\Final\DPTX_Cal_Lecroy ***

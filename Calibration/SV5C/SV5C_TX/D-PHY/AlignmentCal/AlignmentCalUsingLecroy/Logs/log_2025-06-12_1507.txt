@@ -1,0 +1,12 @@
+Pinetree (v 25.2.b1)
+No FTDI devices available
+Will try again in 2 seconds
+No FTDI devices available
+Failed to connect to subPart 'SV5C_4L8G_MIPI_DPHY_GENERATOR_A'
+WARNING: Failed to correctly initialize hardware; disconnecting.
+Connecting to serialNum 'FTDI:INSV5T221127A'
+Connected to subPart 'SV5C_4L8G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INSV5T221127B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CDPTX01C009_FW07
+Doing post-connection initialization

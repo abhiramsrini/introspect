@@ -1,0 +1,5 @@
+Pinetree (v 25.2.b1)
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\AlignmentCal\sv5DptxAlignmentCalUsingKeysightScope ***
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\AlignmentCal\sv5DptxAlignmentCalUsingKeysightScope ***
+Starting firmware update...
+Disconnecting from hardware (if not already disconnected)

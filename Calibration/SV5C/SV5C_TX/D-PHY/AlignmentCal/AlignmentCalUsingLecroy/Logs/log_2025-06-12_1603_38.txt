@@ -1,0 +1,30 @@
+Pinetree (v 25.2.b1)
+Connecting to serialNum 'FTDI:INSV5T221127A'
+Connected to subPart 'SV5C_4L8G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INSV5T221127B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CDPTX01C009_FW07
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'sv5DptxAlignmentCalUsingKeysightScope'
+2025-06-12_1603_39
+--------------------------------------------------------------------------------
+WARNING: Test Procedure: assigning to unrecognized attribute 'maxWaitMillisForSetDataRate' of component 'mipiClockConfig1'
+WARNING: Function 'createPlots': assigning to unrecognized attribute 'getAxesOptionsFromSvtAttrs' of component 'plotCreator1'
+Measuring D-PHY Lane 5...
+Measuring at 3126.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+********************************************************************************
+Test run cancelled by user
+Test took 30.6 seconds
+--------------------------------------------------------------------------------
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\AlignmentCal\sv5DptxAlignmentCalUsingKeysightScope ***
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\AlignmentCal\sv5DptxAlignmentCalUsingKeysightScope ***
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_DPHY_GENERATOR initialized

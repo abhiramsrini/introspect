@@ -1,0 +1,114 @@
+# DateTime: 2025-07-04_1600_46
+# SVT version: 25.2.0
+# Form factor: SV5C_4L8G_MIPI_CPHY_ANALYZER
+# subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_A' info
+#     Connected to  INSV5R230620A
+#     firmwareId:   FWSV5CCPRX01C008
+#     firmwareRev:  FW000000
+#     hardwareId:   HW000004
+#     hardwareRev:  E
+#     moduleSerial: DefSV5C_revC
+# subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_B' info
+#     Not connected
+# Test: C:\Users\Primeasure-BLR\Desktop\Demo_SV5C_Rx_Cal_latest_FW_SW\SV5C_CPRX_calibration_Scripts\rxGain0ThresholdCal\SV5C_CPRX_analogCapture_Cal_Analyzer
+
+   +0.073ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0602 target=0x04 value=0x00000002
+   +3.869ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.053ms: # mipiAnalogCaptureDataReset
+   +0.094ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0664 target=0x04 value=0x00000000
+   +3.931ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.085ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0672 target=0x04 value=0x00080000
+   +3.957ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.035ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +3.909ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.071ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: readRegister: addr=0x01C0 target=None
+   +3.879ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: [00 00 00 01] (1 = 0x1)
+   +0.030ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x01C6 target=0x00 value=0x00000001 delay1=8 delay2=8
+  +19.986ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.049ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +3.934ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.085ms: FTD3XX: FT_ReadPipe: reading 524288 bytes
+   +3.409ms: FTD3XX: FT_ReadPipe: success
+   +0.404ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +4.134ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.171ms: # setActiveWires(wireTargets=wireCA, laneOrLanes=3)
+   +0.274ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0602 target=0x04 value=0x00000004
+   +3.554ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.093ms: # mipiAnalogCaptureDataReset
+   +0.107ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0664 target=0x04 value=0x00000000
+   +3.785ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.117ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0672 target=0x04 value=0x00080000
+   +3.880ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.018ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +4.046ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.064ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: readRegister: addr=0x01C0 target=None
+   +3.890ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: [00 00 00 01] (1 = 0x1)
+   +0.026ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x01C6 target=0x00 value=0x00000001 delay1=8 delay2=8
+  +19.921ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.040ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +4.042ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.103ms: FTD3XX: FT_ReadPipe: reading 524288 bytes
+  +11.897ms: FTD3XX: FT_ReadPipe: success
+   +0.246ms: # mipiAnalogCaptureResultSize
+   +0.034ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: readRegister: addr=0x0667 target=0x08
+   +3.699ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: [00 08 00 00] (524288 = 0x80000)
+   +0.102ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +3.809ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.137ms: # setActiveWires(wireTargets=wireAB, laneOrLanes=4)
+   +0.106ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0602 target=0x08 value=0x00000001
+   +3.785ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.124ms: # mipiAnalogCaptureDataReset
+   +0.091ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0664 target=0x08 value=0x00000000
+   +3.771ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.143ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0672 target=0x08 value=0x00080000
+   +3.928ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.019ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +3.981ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.090ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: readRegister: addr=0x01C0 target=None
+   +3.867ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: [00 00 00 01] (1 = 0x1)
+   +0.027ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x01C6 target=0x00 value=0x00000001 delay1=8 delay2=8
+  +19.992ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.021ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +3.940ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.064ms: FTD3XX: FT_ReadPipe: reading 524288 bytes
+   +3.426ms: FTD3XX: FT_ReadPipe: success
+   +0.384ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +4.156ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.193ms: # setActiveWires(wireTargets=wireBC, laneOrLanes=4)
+   +0.179ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0602 target=0x08 value=0x00000002
+   +3.631ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.164ms: # mipiAnalogCaptureDataReset
+   +0.180ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0664 target=0x08 value=0x00000000
+   +3.658ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.215ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0672 target=0x08 value=0x00080000
+   +3.842ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.050ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +3.881ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.114ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: readRegister: addr=0x01C0 target=None
+   +3.868ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: [00 00 00 01] (1 = 0x1)
+   +0.038ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x01C6 target=0x00 value=0x00000001 delay1=8 delay2=8
+  +20.012ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.042ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +3.890ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.066ms: FTD3XX: FT_ReadPipe: reading 524288 bytes
+   +3.483ms: FTD3XX: FT_ReadPipe: success
+   +0.411ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +4.053ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.104ms: # setActiveWires(wireTargets=wireCA, laneOrLanes=4)
+   +0.102ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0602 target=0x08 value=0x00000004
+   +3.776ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.095ms: # mipiAnalogCaptureDataReset
+   +0.098ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0664 target=0x08 value=0x00000000
+   +3.799ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.120ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x0672 target=0x08 value=0x00080000
+   +3.881ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.025ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +4.060ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.080ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: readRegister: addr=0x01C0 target=None
+   +3.902ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: [00 00 00 01] (1 = 0x1)
+   +0.029ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: writeRegister: addr=0x01C6 target=0x00 value=0x00000001 delay1=8 delay2=8
+  +19.983ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.028ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: waitForCommandProcessor (maxWaitTime = 3600000)
+   +3.972ms: SV5C_4L8G_MIPI_CPHY_ANALYZER_A: result: success
+   +0.073ms: FTD3XX: FT_ReadPipe: reading 524288 bytes
+   +3.553ms: FTD3XX: FT_ReadPipe: success

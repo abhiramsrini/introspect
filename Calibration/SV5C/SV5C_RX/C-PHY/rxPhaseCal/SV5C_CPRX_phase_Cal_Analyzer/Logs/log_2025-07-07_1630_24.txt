@@ -1,0 +1,481 @@
+Pinetree (v 25.1.1)
+Connecting to serialNum 'FTDI:INSV5R230620A'
+Connected to subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_A'
+Connecting to serialNum 'FTDI:INSV5R230620B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CCPRX01C007_FW00
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'SV5C_CPRX_phase_Cal_Analyzer'
+2025-07-07_1630_25
+--------------------------------------------------------------------------------
+TX: SV5C_4L8G_MIPI_CPHY_GENERATOR
+TX: serial number: 79-0057
+TX: FW: FWSV5CCPTX01C010 Revision: FW000003
+Serial Number: 89-0086
+Firmware Id: FWSV5CCPRX01C007
+Firmware revision: FW000000
+Hardware revision: E
+Waitting for 5 min to let the units warm up...
+ 
+== Start calibration ==
+Data Rate: 4000.000000
+Starting clock config setup
+==Trial #0 for Lane 1
+Starting MipiCphyLaneList setup
+0
+wireAB1_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1
+Edge Location: -27.449821
+SyncOffset: 9906
+Starting MipiCphyLaneList setup
+1
+wireAB1_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run2
+Edge Location: -39.790947
+SyncOffset: 9906
+Starting MipiCphyLaneList setup
+2
+wireBC1_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run3
+Edge Location: -84.674000
+SyncOffset: 9906
+Starting MipiCphyLaneList setup
+3
+wireBC1_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run4
+Edge Location: -112.287997
+SyncOffset: 9906
+Starting MipiCphyLaneList setup
+4
+wireCA1_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run5
+Edge Location: -34.745183
+SyncOffset: 9906
+Starting MipiCphyLaneList setup
+5
+wireCA1_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 1
+PATSYNC_strobeSync: PatternSync succeeded on lanes 1
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run6
+Edge Location: -101.452482
+SyncOffset: 9906
+syncOffset are the same. Pass.
+==Trial #0 for Lane 2
+Starting MipiCphyLaneList setup
+6
+wireAB2_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run7
+Edge Location: -216.336651
+SyncOffset: 20611
+Starting MipiCphyLaneList setup
+7
+wireAB2_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run8
+Edge Location: -208.146557
+SyncOffset: 9880
+syncOffset are not the same
+syncOffset are not the same!! Repeat...
+Data Rate: 4000.000000
+Starting clock config setup
+==Trial #1 for Lane 2
+Starting MipiCphyLaneList setup
+6
+wireAB2_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run9
+Edge Location: -216.555623
+SyncOffset: 4562
+Starting MipiCphyLaneList setup
+7
+wireAB2_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run10
+Edge Location: -207.540657
+SyncOffset: 4562
+Starting MipiCphyLaneList setup
+8
+wireBC2_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run11
+Edge Location: -216.462479
+SyncOffset: 4562
+Starting MipiCphyLaneList setup
+9
+wireBC2_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run12
+Edge Location: -205.337367
+SyncOffset: 4562
+Starting MipiCphyLaneList setup
+10
+wireCA2_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run13
+Edge Location: -31.362552
+SyncOffset: 4561
+syncOffset are not the same
+syncOffset are not the same!! Repeat...
+Data Rate: 4000.000000
+Starting clock config setup
+==Trial #2 for Lane 2
+Starting MipiCphyLaneList setup
+6
+wireAB2_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run14
+Edge Location: -121.587057
+SyncOffset: 6478
+Starting MipiCphyLaneList setup
+7
+wireAB2_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run15
+Edge Location: -106.799585
+SyncOffset: 6478
+Starting MipiCphyLaneList setup
+8
+wireBC2_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run16
+Edge Location: -116.005171
+SyncOffset: 6478
+Starting MipiCphyLaneList setup
+9
+wireBC2_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run17
+Edge Location: -103.069150
+SyncOffset: 6478
+Starting MipiCphyLaneList setup
+10
+wireCA2_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run18
+Edge Location: -146.880857
+SyncOffset: 6478
+Starting MipiCphyLaneList setup
+11
+wireCA2_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 2
+PATSYNC_strobeSync: PatternSync succeeded on lanes 2
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run19
+Edge Location: -117.774236
+SyncOffset: 6478
+syncOffset are the same. Pass.
+==Trial #0 for Lane 3
+Starting MipiCphyLaneList setup
+12
+wireAB3_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run20
+Edge Location: -144.537789
+SyncOffset: 6472
+Starting MipiCphyLaneList setup
+13
+wireAB3_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run21
+Edge Location: -158.166815
+SyncOffset: 6472
+Starting MipiCphyLaneList setup
+14
+wireBC3_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run22
+Edge Location: -189.019129
+SyncOffset: 6472
+Starting MipiCphyLaneList setup
+15
+wireBC3_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run23
+Edge Location: -208.209821
+SyncOffset: 6472
+Starting MipiCphyLaneList setup
+16
+wireCA3_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run24
+Edge Location: -141.112301
+SyncOffset: 6472
+Starting MipiCphyLaneList setup
+17
+wireCA3_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 3
+PATSYNC_strobeSync: PatternSync succeeded on lanes 3
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run25
+Edge Location: -198.592498
+SyncOffset: 6472
+syncOffset are the same. Pass.
+==Trial #0 for Lane 4
+Starting MipiCphyLaneList setup
+18
+wireAB4_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run26
+Edge Location: -124.487006
+SyncOffset: 6467
+Starting MipiCphyLaneList setup
+19
+wireAB4_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run27
+Edge Location: -118.685406
+SyncOffset: 6467
+Starting MipiCphyLaneList setup
+20
+wireBC4_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run28
+Edge Location: -117.843007
+SyncOffset: 6467
+Starting MipiCphyLaneList setup
+21
+wireBC4_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run29
+Edge Location: -98.785834
+SyncOffset: 6467
+Starting MipiCphyLaneList setup
+22
+wireCA4_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run30
+Edge Location: -140.657825
+SyncOffset: 6467
+Starting MipiCphyLaneList setup
+23
+wireCA4_1
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+successful strobe sync on channels 4
+PATSYNC_strobeSync: PatternSync succeeded on lanes 4
+WARNING: Using hard-coded transition density of 0.5
+WARNING: Using hard-coded mark density of 0.5
+--> bertScan Result:  bertScan1_run31
+Edge Location: -119.807776
+SyncOffset: 6467
+syncOffset are the same. Pass.
+Falling edges:
+[-27.44982144615028, -39.790946677448964, -84.6740004215586, -112.28799744682924, -34.7451830605511, -101.45248177384971, -121.58705691215958, -106.79958540596526, -116.00517056750273, -103.06915048985033, -146.88085693807537, -117.77423595420461, -144.53778949804246, -158.16681516480756, -189.01912944811198, -208.20982089343013, -141.11230147732036, -198.59249792917834, -124.4870059592438, -118.6854055064032, -117.84300709517586, -98.78583438941179, -140.65782520554464, -119.80777622110523]
+syncOffsets:
+[9906, 9906, 9906, 9906, 9906, 9906, 6478, 6478, 6478, 6478, 6478, 6478, 6472, 6472, 6472, 6472, 6472, 6472, 6467, 6467, 6467, 6467, 6467, 6467]
+listDiff
+[0.0,
+ -12.341125231298683,
+ -57.22417897540832,
+ -84.83817600067896,
+ -7.295361614400818,
+ -74.00266032769943,
+ 0.0,
+ 14.787471506194322,
+ 5.581886344656851,
+ 18.517906422309252,
+ -25.293800025915786,
+ 3.812820957954969,
+ 0.0,
+ -13.629025666765102,
+ -44.481339950069525,
+ -63.67203139538768,
+ 3.4254880207220992,
+ -54.05470843113588,
+ 0.0,
+ 5.801600452840603,
+ 6.643998864067939,
+ 25.701171569832013,
+ -16.170819246300837,
+ 4.679229738138574]
+Test finished
+Test took 8.0 minutes
+--------------------------------------------------------------------------------
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\Demo_SV5C_Rx_Cal_latest_FW_SW\SV5C_CPRX_calibration_Scripts\rxPhaseCal\SV5C_CPRX_phase_Cal_Analyzer ***
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_CPHY_ANALYZER initialized

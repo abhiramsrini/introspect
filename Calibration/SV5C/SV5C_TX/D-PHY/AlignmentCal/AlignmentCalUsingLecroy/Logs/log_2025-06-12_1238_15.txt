@@ -1,0 +1,22 @@
+Pinetree (v 25.2.b1)
+Connecting to serialNum 'FTDI:INSV5T221127A'
+Connected to subPart 'SV5C_4L8G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INSV5T221127B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CDPTX01C009_FW07
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'sv5DptxAlignmentCalUsingKeysightScope'
+2025-06-12_1238_16
+--------------------------------------------------------------------------------
+WARNING: Test Procedure: assigning to unrecognized attribute 'maxWaitMillisForSetDataRate' of component 'mipiClockConfig1'
+ERROR: Exception when executing function 'initScope':
+NameError: name 'visa' is not defined
+Traceback (most recent call last):
+  File "<string>", line 3, in initScope
+    rm = visa.ResourceManager()
+********************************************************************************
+Test run aborted due to error
+Test took 41 milliseconds
+--------------------------------------------------------------------------------
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\AlignmentCal\sv5DptxAlignmentCalUsingKeysightScope ***

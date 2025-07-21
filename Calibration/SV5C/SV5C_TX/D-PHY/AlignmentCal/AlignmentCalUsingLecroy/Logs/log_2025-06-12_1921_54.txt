@@ -1,0 +1,1124 @@
+Pinetree (v 25.2.b1)
+Connecting to serialNum 'FTDI:INSV5T221127A'
+Connected to subPart 'SV5C_4L8G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INSV5T221127B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CDPTX01C009_FW07
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'sv5DptxAlignmentCalUsingKeysightScope'
+2025-06-12_1921_55
+--------------------------------------------------------------------------------
+Measuring D-PHY Lane 5...
+Measuring at 3126.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.20427e-09...
+Measuring at 3500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.18316e-09...
+Measuring at 3750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.15667e-09...
+Measuring at 4000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.13923e-09...
+Measuring at 4250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.12758e-09...
+Measuring at 4500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.11543e-09...
+Measuring at 4750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.09915e-09...
+Measuring at 5000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.10102e-09...
+Measuring at 5250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.08749e-09...
+Measuring at 5500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.08365e-09...
+Measuring at 5750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.07583e-09...
+Measuring at 6000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.06222e-09...
+Measuring at 6250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.05721e-09...
+[-4.49055872e-10  1.51356872e-05 -1.85167524e-01  1.88386621e+03]
+[0. 0. 0. 0.]
+Measuring D-PHY Lane 4...
+Measuring at 3126.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.8119e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.48264e-09...
+Measuring at 3500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.74609e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.38368e-09...
+Measuring at 3750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.70581e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.31924e-09...
+Measuring at 4000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.68198e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.27868e-09...
+Measuring at 4250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.65473e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.25054e-09...
+Measuring at 4500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.62523e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.20504e-09...
+Measuring at 4750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.6127e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.17382e-09...
+Measuring at 5000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.58251e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.13692e-09...
+Measuring at 5250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.56643e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.10762e-09...
+Measuring at 5500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.55852e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.09706e-09...
+Measuring at 5750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.52778e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.05183e-09...
+Measuring at 6000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.51778e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.04412e-09...
+Measuring at 6250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.50292e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.01698e-09...
+[-1.04758413e-09  3.66178993e-05 -4.74359153e-01  4.26958645e+03]
+[-7.54086478e-10  2.57377877e-05 -3.25902054e-01  3.02584115e+03]
+Measuring D-PHY Lane 3...
+Measuring at 3126.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.74109e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.3446e-09...
+Measuring at 3500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.64637e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.21365e-09...
+Measuring at 3750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.59583e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.14465e-09...
+Measuring at 4000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.54549e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.07782e-09...
+Measuring at 4250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.49391e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.01326e-09...
+Measuring at 4500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.46616e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.97148e-09...
+Measuring at 4750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.42385e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.92607e-09...
+Measuring at 5000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.40521e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.89159e-09...
+Measuring at 5250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.38257e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.85704e-09...
+Measuring at 5500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.34601e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.80973e-09...
+Measuring at 5750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.32465e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.77881e-09...
+Measuring at 6000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.29654e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.7465e-09...
+Measuring at 6250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 2.27766e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.72129e-09...
+[-1.42610696e-09  4.97177491e-05 -6.42619681e-01  5.76659592e+03]
+[-1.09418786e-09  3.79544242e-05 -4.87192724e-01  4.57210518e+03]
+Measuring D-PHY Lane 2...
+Measuring at 3126.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 4.09998e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.19924e-09...
+Measuring at 3500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.93664e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.06627e-09...
+Measuring at 3750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.85417e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.98988e-09...
+Measuring at 4000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.76807e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.92693e-09...
+Measuring at 4250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.69915e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.87464e-09...
+Measuring at 4500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.63823e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.81404e-09...
+Measuring at 4750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.58058e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.77068e-09...
+Measuring at 5000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.54828e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.74366e-09...
+Measuring at 5250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.50337e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.69244e-09...
+Measuring at 5500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.4547e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.66933e-09...
+Measuring at 5750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.39806e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.63447e-09...
+Measuring at 6000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.36526e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.61205e-09...
+Measuring at 6250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.33487e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 2.58447e-09...
+[-1.20798752e-09  4.49369993e-05 -6.10558863e-01  5.55383418e+03]
+[-1.94045785e-09  6.62322770e-05 -8.34717181e-01  7.20280749e+03]
+Measuring D-PHY Lane 1...
+Measuring at 3126.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 4.00559e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 4.65254e-09...
+Measuring at 3500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.82856e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 4.43786e-09...
+Measuring at 3750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.74043e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 4.33543e-09...
+Measuring at 4000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.65866e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 4.24295e-09...
+Measuring at 4250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.60164e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 4.16314e-09...
+Measuring at 4500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.54182e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 4.09585e-09...
+Measuring at 4750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.48452e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 4.02592e-09...
+Measuring at 5000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.42464e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.94788e-09...
+Measuring at 5250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.38089e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.90168e-09...
+Measuring at 5500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.35708e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.86673e-09...
+Measuring at 5750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.2979e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.81108e-09...
+Measuring at 6000.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.27712e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.76364e-09...
+Measuring at 6250.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 3.2362e-09...
+Performing coarse loop...
+Position is 3
+channel string is C3
+delay is 3.72368e-09...
+[-2.19492203e-09  7.69290057e-05 -9.90281615e-01  8.36560251e+03]
+[-1.85833656e-09  6.51153261e-05 -8.35241154e-01  7.13024542e+03]
+Test finished
+Test took 33.5 minutes
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_DPHY_GENERATOR initialized

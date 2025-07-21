@@ -1,0 +1,26 @@
+Pinetree (v 25.2.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'SV5C_CPTX_phase_Cal_Generator'
+2025-07-07_1630_41
+--------------------------------------------------------------------------------
+Starting MipiCphyGenerator setup
+Starting clock config setup
+New clock configuration
+Starting MipiCphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setup finished...
+Starting MipiCphyGenerator setup
+Starting clock config setup
+Setup finished...
+Starting MipiCphyGenerator setup
+Starting clock config setup
+Setup finished...
+Analyzer is stopped...
+Test finished
+Test took 7.5 minutes
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_CPHY_GENERATOR initialized

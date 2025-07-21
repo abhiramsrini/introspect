@@ -1,0 +1,59 @@
+Pinetree (v 25.2.b1)
+Connecting to serialNum 'FTDI:INSV5T221127A'
+Connected to subPart 'SV5C_4L8G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INSV5T221127B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CDPTX01C009_FW07
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'sv5DptxAlignmentCalUsingKeysightScope'
+2025-06-12_2313_18
+--------------------------------------------------------------------------------
+Measuring D-PHY Lane 5...
+Measuring at 3126.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.12593e-09...
+Measuring at 3500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+Setting averaging to 16 sweeps
+Setting delta-time measurement parameters
+Performing coarse loop...
+delay is 0...
+ 
+Performing coarse loop...
+Position is 2
+channel string is C2
+delay is 1.09732e-09...
+Measuring at 3750.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+New clock configuration
+Setting skew to 0
+Setting channels to display
+Clearing display
+********************************************************************************
+Test run cancelled by user
+Test took 2.1 minutes
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_DPHY_GENERATOR initialized

@@ -1,0 +1,40 @@
+Pinetree (v 25.2.b1)
+Connecting to serialNum 'FTDI:INSV5T221127A'
+Connected to subPart 'SV5C_4L8G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INSV5T221127B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CDPTX01C009_FW07
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'sv5DptxAlignmentCalUsingKeysightScope'
+2025-06-12_1243_35
+--------------------------------------------------------------------------------
+WARNING: Test Procedure: assigning to unrecognized attribute 'maxWaitMillisForSetDataRate' of component 'mipiClockConfig1'
+Measuring D-PHY Lane 5...
+Measuring at 3126.000000 Mbps...
+********************************************************************************
+Exception occurred during Test run:
+Traceback (most recent call last):
+  File "<string>", line 62, in <module>
+    iesp.writeSubPartRegister(0x0934, 0x00, 0x01) #Disable the clock offset
+  File "/home/dave/Documents/source/SvtPython/dftm/iespInfra.py", line 1323, in writeSubPartRegister
+  File "/home/dave/Documents/source/SvtPython/dftm/iespSubPart.py", line 1095, in writeRegister
+  File "/home/dave/Documents/source/SvtPython/dftm/commandProcessor/ftdiCommandProcessor.py", line 166, in writeRegister
+  File "/home/dave/Documents/source/SvtPython/dftm/commandProcessor/ftdiCommandProcessor.py", line 718, in _writeRegister
+  File "/home/dave/Documents/source/SvtPython/dftm/commandProcessor/commandProcessorBase.py", line 130, in sendCommand
+  File "/home/dave/Documents/source/SvtPython/dftm/commandProcessor/ftdiCommandProcessor.py", line 629, in _sendCommand
+  File "/home/dave/Documents/source/SvtPython/dftm/comm/ftdi/ftdiSpiInterface.py", line 485, in spiWrite
+  File "/home/dave/Documents/source/SvtPython/dftm/comm/ftdi/ftdiSpiInterface.py", line 415, in transferBytes
+  File "/home/dave/Documents/source/SvtPython/dftm/comm/ftdi/ftd2xxApi.py", line 369, in write
+  File "/home/dave/Documents/source/SvtPython/dftm/comm/ftdi/ftd2xxApi.py", line 146, in fn_wrap
+FTD2XXDeviceError: IO_ERROR
+Test took 1.4 minutes
+--------------------------------------------------------------------------------
+WARNING: checkConnection failed due to exception:
+IO_ERROR
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_DPHY_GENERATOR initialized

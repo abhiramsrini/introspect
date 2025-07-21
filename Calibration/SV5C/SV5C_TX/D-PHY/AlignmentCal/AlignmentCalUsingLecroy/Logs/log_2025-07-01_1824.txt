@@ -1,0 +1,5 @@
+Pinetree (v 25.2.0)
+WARNING: checkConnection failed due to exception:
+IO_ERROR
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.

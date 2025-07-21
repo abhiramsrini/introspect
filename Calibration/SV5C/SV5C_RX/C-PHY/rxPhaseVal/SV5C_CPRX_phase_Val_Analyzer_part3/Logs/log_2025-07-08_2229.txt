@@ -1,0 +1,13 @@
+Pinetree (v 25.1.1)
+Connecting to serialNum 'FTDI:INSV5R230620A'
+Connected to subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_A'
+Connecting to serialNum 'FTDI:INSV5R230620B'
+Initializing IESP hardware/firmware
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+WARNING: initHardware failed
+WARNING: Failed to correctly initialize hardware; disconnecting.
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_CPHY_ANALYZER initialized

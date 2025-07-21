@@ -1,0 +1,15 @@
+Pinetree (v 25.2.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'SV5C_CPRX_analogCapture_Cal_Analyzer'
+2025-07-04_1218_04
+--------------------------------------------------------------------------------
+WARNING: SvtCoordRequest_Register: recv_string timed out (waited 2000 ms)
+ERROR: Failed to register as 'Analyzer'
+********************************************************************************
+Test run aborted due to error
+Test took 2.0 seconds
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_CPHY_ANALYZER initialized

@@ -1,0 +1,14 @@
+Pinetree (v 25.2.b1)
+--------------------------------------------------------------------------------
+*** Starting Test 'sv5DptxAlignmentCalUsingKeysightScope'
+2025-06-12_1617_19
+--------------------------------------------------------------------------------
+********************************************************************************
+Exception occurred during Test run:
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+    mipiClockConfig1("maxWaitMillisForSetDataRate", 120000)
+TypeError: 'SvtMipiClockConfig' object is not callable
+Test took 2 milliseconds
+--------------------------------------------------------------------------------
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\AlignmentCal\sv5DptxAlignmentCalUsingKeysightScope ***

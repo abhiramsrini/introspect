@@ -1,0 +1,36 @@
+Pinetree (v 25.1.1)
+--------------------------------------------------------------------------------
+*** Starting Test 'SV5C_CPRX_phase_Cal_Analyzer'
+2025-07-07_1623_13
+--------------------------------------------------------------------------------
+TX: SV5C_4L8G_MIPI_CPHY_GENERATOR
+TX: serial number: 79-0057
+TX: FW: FWSV5CCPTX01C010 Revision: FW000003
+Serial Number: 89-0086
+Firmware Id: FWSV5CCPRX01C007
+Firmware revision: FW000000
+Hardware revision: E
+Waitting for 5 min to let the units warm up...
+ 
+== Start calibration ==
+Data Rate: 4000.000000
+Starting clock config setup
+==Trial #0 for Lane 1
+Starting MipiCphyLaneList setup
+0
+wireAB1_0
+Starting Bert Scan
+bertScan1: setting up for Bert Scan
+Starting MipiCphyLaneList setup
+strobe sync failed on all channels
+ERROR: PATSYNC_strobeSync: PatternSync failed on all lanes
+  File "<string>", line 55, in runCalibration
+    result = bertScan1.run()
+********************************************************************************
+Test run aborted due to error
+Test took 6.0 minutes
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_CPHY_ANALYZER initialized

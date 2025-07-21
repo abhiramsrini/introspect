@@ -1,0 +1,119 @@
+Pinetree (v 25.2.0)
+Connecting to serialNum 'FTDI:INSV5R230620A'
+Connected to subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_A'
+Connecting to serialNum 'FTDI:INSV5R230620B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CCPRX01C008_FW00
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'SV5C_CPRX_analogCapture_Cal_Analyzer'
+2025-07-04_1218_44
+--------------------------------------------------------------------------------
+Starting clock config setup
+New clock configuration
+Calculating clocking parameters... (will take several seconds)
+Starting clock config setup
+Selecting sub-receiver 0
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+USB3: Transferring data over USB3 connection
+doing Analog Capture analysis
+Measuring level 100.0mV
+{1: {'wireAB': 219.84648, 'wireBC': 244.90059, 'wireCA': 255.92006}, 2: {'wireAB': 230.89722, 'wireBC': 304.73218, 'wireCA': 257.35037}, 3: {'wireAB': 290.50959, 'wireBC': 240.85563, 'wireCA': 255.43801}, 4: {'wireAB': 317.31406, 'wireBC': 196.89235, 'wireCA': 326.04258}} {1: {'wireAB': -218.71134, 'wireBC': -159.35492, 'wireCA': -240.64137}, 2: {'wireAB': -240.43023, 'wireBC': -180.75191, 'wireCA': -226.61081}, 3: {'wireAB': -148.7025, 'wireBC': -308.84475, 'wireCA': -188.95583}, 4: {'wireAB': -140.54641, 'wireBC': -258.95055, 'wireCA': -225.84169}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 125.0mV
+{1: {'wireAB': 263.74984, 'wireBC': 289.26462, 'wireCA': 310.19894}, 2: {'wireAB': 280.70216, 'wireBC': 358.83664, 'wireCA': 313.78292}, 3: {'wireAB': 351.80069, 'wireBC': 316.4914, 'wireCA': 307.34581}, 4: {'wireAB': 382.66319, 'wireBC': 251.35943, 'wireCA': 389.48285}} {1: {'wireAB': -263.93896, 'wireBC': -201.93776, 'wireCA': -294.56263}, 2: {'wireAB': -297.16538, 'wireBC': -230.19543, 'wireCA': -283.72004}, 3: {'wireAB': -200.24015, 'wireBC': -386.90805, 'wireCA': -242.84934}, 4: {'wireAB': -196.11693, 'wireBC': -324.64484, 'wireCA': -294.74696}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 150.0mV
+{1: {'wireAB': 308.04216, 'wireBC': 331.5622, 'wireCA': 362.74781}, 2: {'wireAB': 332.76494, 'wireBC': 415.1722, 'wireCA': 373.65817}, 3: {'wireAB': 401.51147, 'wireBC': 376.16803, 'wireCA': 354.83654}, 4: {'wireAB': 437.30946, 'wireBC': 294.69762, 'wireCA': 452.29424}} {1: {'wireAB': -307.33323, 'wireBC': -244.67416, 'wireCA': -347.11283}, 2: {'wireAB': -349.72494, 'wireBC': -275.98462, 'wireCA': -344.97758}, 3: {'wireAB': -242.42018, 'wireBC': -448.90869, 'wireCA': -291.19715}, 4: {'wireAB': -239.88148, 'wireBC': -383.10303, 'wireCA': -362.52105}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 175.0mV
+{1: {'wireAB': 354.28885, 'wireBC': 369.93637, 'wireCA': 428.15879}, 2: {'wireAB': 372.85722, 'wireBC': 466.40238, 'wireCA': 424.89288}, 3: {'wireAB': 458.54957, 'wireBC': 442.00899, 'wireCA': 412.0578}, 4: {'wireAB': 493.3741, 'wireBC': 335.01528, 'wireCA': 521.72602}} {1: {'wireAB': -356.82371, 'wireBC': -284.43532, 'wireCA': -405.59914}, 2: {'wireAB': -397.01695, 'wireBC': -324.11171, 'wireCA': -398.53399}, 3: {'wireAB': -290.37817, 'wireBC': -516.35424, 'wireCA': -345.5624}, 4: {'wireAB': -285.53624, 'wireBC': -438.89489, 'wireCA': -436.38229}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 210.0mV
+{1: {'wireAB': 407.57556, 'wireBC': 424.3912, 'wireCA': 497.74967}, 2: {'wireAB': 435.36032, 'wireBC': 542.31602, 'wireCA': 502.45836}, 3: {'wireAB': 518.28338, 'wireBC': 532.93414, 'wireCA': 472.0652}, 4: {'wireAB': 562.1283, 'wireBC': 393.27897, 'wireCA': 600.66992}} {1: {'wireAB': -408.97792, 'wireBC': -341.02947, 'wireCA': -468.74337}, 2: {'wireAB': -465.60497, 'wireBC': -388.41919, 'wireCA': -477.22483}, 3: {'wireAB': -340.14258, 'wireBC': -587.7651, 'wireCA': -411.72003}, 4: {'wireAB': -334.72182, 'wireBC': -521.75167, 'wireCA': -525.00907}}
+Toggling odd phase state.
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 100.0mV
+{1: {'wireAB': 263.60079, 'wireBC': 213.0437, 'wireCA': 242.23998}, 2: {'wireAB': 256.21028, 'wireBC': 256.19424, 'wireCA': 261.31377}, 3: {'wireAB': 244.12955, 'wireBC': 199.92141, 'wireCA': 218.84038}, 4: {'wireAB': 218.90074, 'wireBC': 295.19245, 'wireCA': 302.15251}} {1: {'wireAB': -199.43633, 'wireBC': -185.33046, 'wireCA': -259.12535}, 2: {'wireAB': -224.33213, 'wireBC': -188.77963, 'wireCA': -206.19804}, 3: {'wireAB': -149.97638, 'wireBC': -308.42765, 'wireCA': -216.24225}, 4: {'wireAB': -222.025, 'wireBC': -142.60625, 'wireCA': -169.71728}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 125.0mV
+{1: {'wireAB': 317.56877, 'wireBC': 256.44983, 'wireCA': 297.49739}, 2: {'wireAB': 313.90951, 'wireBC': 305.21276, 'wireCA': 313.68789}, 3: {'wireAB': 293.11399, 'wireBC': 260.02917, 'wireCA': 261.94453}, 4: {'wireAB': 277.95418, 'wireBC': 355.28857, 'wireCA': 351.51666}} {1: {'wireAB': -247.78918, 'wireBC': -229.12661, 'wireCA': -315.55694}, 2: {'wireAB': -273.68486, 'wireBC': -231.27486, 'wireCA': -255.71597}, 3: {'wireAB': -198.21132, 'wireBC': -379.05229, 'wireCA': -266.96837}, 4: {'wireAB': -277.50125, 'wireBC': -199.73326, 'wireCA': -217.71095}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 150.0mV
+{1: {'wireAB': 363.48281, 'wireBC': 294.69609, 'wireCA': 348.48684}, 2: {'wireAB': 367.91932, 'wireBC': 347.0647, 'wireCA': 373.44029}, 3: {'wireAB': 332.06541, 'wireBC': 308.51962, 'wireCA': 306.92983}, 4: {'wireAB': 322.25725, 'wireBC': 404.23017, 'wireCA': 398.76723}} {1: {'wireAB': -293.64638, 'wireBC': -270.80616, 'wireCA': -369.52612}, 2: {'wireAB': -325.27389, 'wireBC': -278.10346, 'wireCA': -308.86025}, 3: {'wireAB': -237.90228, 'wireBC': -434.76345, 'wireCA': -316.07219}, 4: {'wireAB': -321.99504, 'wireBC': -240.99337, 'wireCA': -261.63736}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 175.0mV
+{1: {'wireAB': 411.51386, 'wireBC': 327.8786, 'wireCA': 409.00851}, 2: {'wireAB': 413.77984, 'wireBC': 387.92327, 'wireCA': 421.31246}, 3: {'wireAB': 375.19639, 'wireBC': 355.26942, 'wireCA': 353.65724}, 4: {'wireAB': 367.29771, 'wireBC': 450.67519, 'wireCA': 442.56252}} {1: {'wireAB': -343.25205, 'wireBC': -306.49471, 'wireCA': -427.98149}, 2: {'wireAB': -367.11126, 'wireBC': -321.98572, 'wireCA': -349.9095}, 3: {'wireAB': -279.82364, 'wireBC': -492.84079, 'wireCA': -370.33728}, 4: {'wireAB': -369.14897, 'wireBC': -279.8355, 'wireCA': -312.92874}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 210.0mV
+{1: {'wireAB': 470.92712, 'wireBC': 380.3354, 'wireCA': 479.18055}, 2: {'wireAB': 481.42956, 'wireBC': 443.56926, 'wireCA': 490.829}, 3: {'wireAB': 418.01684, 'wireBC': 415.09355, 'wireCA': 408.94967}, 4: {'wireAB': 428.70578, 'wireBC': 524.20507, 'wireCA': 493.69294}} {1: {'wireAB': -394.38092, 'wireBC': -361.80957, 'wireCA': -496.76939}, 2: {'wireAB': -428.219, 'wireBC': -385.60589, 'wireCA': -415.6204}, 3: {'wireAB': -320.65843, 'wireBC': -573.47329, 'wireCA': -433.68968}, 4: {'wireAB': -422.38494, 'wireBC': -338.13575, 'wireCA': -368.43666}}
+Starting clock config setup
+Selecting sub-receiver 1
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 100.0mV
+{1: {'wireAB': 278.22295, 'wireBC': 299.56849, 'wireCA': 201.03252}, 2: {'wireAB': 252.38581, 'wireBC': 355.84788, 'wireCA': 275.50388}, 3: {'wireAB': 206.11679, 'wireBC': 165.55262, 'wireCA': 212.77023}, 4: {'wireAB': 254.32271, 'wireBC': 330.28258, 'wireCA': 297.39856}} {1: {'wireAB': -214.7937, 'wireBC': -198.33124, 'wireCA': -235.29281}, 2: {'wireAB': -257.64684, 'wireBC': -144.47707, 'wireCA': -202.98304}, 3: {'wireAB': -191.00339, 'wireBC': -251.75284, 'wireCA': -191.27237}, 4: {'wireAB': -186.57294, 'wireBC': -154.89484, 'wireCA': -167.34115}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 125.0mV
+{1: {'wireAB': 338.46523, 'wireBC': 359.23081, 'wireCA': 249.70665}, 2: {'wireAB': 309.06711, 'wireBC': 420.38573, 'wireCA': 334.29881}, 3: {'wireAB': 253.31262, 'wireBC': 213.99046, 'wireCA': 253.81219}, 4: {'wireAB': 317.32039, 'wireBC': 398.0811, 'wireCA': 347.95796}} {1: {'wireAB': -262.89848, 'wireBC': -249.7552, 'wireCA': -281.73466}, 2: {'wireAB': -318.53173, 'wireBC': -201.20879, 'wireCA': -250.96873}, 3: {'wireAB': -245.22744, 'wireBC': -308.49155, 'wireCA': -233.63346}, 4: {'wireAB': -241.5009, 'wireBC': -214.75384, 'wireCA': -217.53735}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 150.0mV
+{1: {'wireAB': 393.7357, 'wireBC': 413.43849, 'wireCA': 294.82493}, 2: {'wireAB': 372.16821, 'wireBC': 477.36429, 'wireCA': 400.97832}, 3: {'wireAB': 294.95804, 'wireBC': 254.76703, 'wireCA': 291.63797}, 4: {'wireAB': 367.49889, 'wireBC': 452.89402, 'wireCA': 397.13786}} {1: {'wireAB': -309.69666, 'wireBC': -300.49015, 'wireCA': -325.25912}, 2: {'wireAB': -382.52329, 'wireBC': -243.98427, 'wireCA': -303.07362}, 3: {'wireAB': -286.21449, 'wireBC': -359.35137, 'wireCA': -273.696}, 4: {'wireAB': -286.6383, 'wireBC': -260.29783, 'wireCA': -260.89525}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+WARNING: SV5C_4L8G_MIPI_CPHY_ANALYZER_A.threadedAction: Exception occured during action 'waitForCommandProcessor'
+ERROR: Exception when executing function 'getMeasurementsAtAmplitude':
+FtdiSpiInterfaceException: Failed to obtain 8 bytes (0 bytes left to send, 0 received, device status=0)
+Traceback (most recent call last):
+  File "<string>", line 9, in getMeasurementsAtAmplitude
+    result = analogCapture1.run()
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/iespFormFactors/gen/mipi/rx/mipiCphyAnalyzer2/components/mipiCphyAnalogCapture.py", line 374, in run
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/iespFormFactors/gen/mipi/rx/mipiCphyAnalyzer2/components/mipiCphyAnalogCapture.py", line 263, in doCaptureOnce
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/iespFormFactors/gen/mipi/rx/mipiCphyAnalyzer2/mipiCphyAnalyzer2.py", line 1623, in doAnalogCapture
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/iespFormFactors/gen/mipi/rx/mipiCphyAnalyzer2/mipiCphyAnalyzer2.py", line 1154, in readMipiAnalogCaptureResults
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/iespInfra.py", line 1888, in waitForCommandProcessors
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/iespSubPart.py", line 2483, in getResult
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/iespSubPart.py", line 2427, in _worker
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/iespSubPart.py", line 1472, in waitForCommandProcessor
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/commandProcessor/ftdiCommandProcessor.py", line 369, in waitForCommandProcessor
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/commandProcessor/ftdiCommandProcessor.py", line 920, in _isCommandProcessorAvailable
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/commandProcessor/commandProcessorBase.py", line 129, in sendCommand
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/commandProcessor/ftdiCommandProcessor.py", line 628, in _sendCommand
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/comm/ftdi/ftdiSpiInterface.py", line 484, in spiWrite
+  File "/home/dave/Documents/source_branch/SvtPython/dftm/comm/ftdi/ftdiSpiInterface.py", line 423, in transferBytes
+********************************************************************************
+Test run aborted due to error
+Test took 1.1 hours
+--------------------------------------------------------------------------------
+WARNING: checkConnection failed due to exception:
+Failed to obtain 8 bytes (0 bytes left to send, 0 received, device status=0)
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_CPHY_ANALYZER initialized

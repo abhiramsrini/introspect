@@ -1,0 +1,17 @@
+Pinetree (v 25.2.b1)
+--------------------------------------------------------------------------------
+*** Starting Test 'sv5DptxAlignmentCalUsingKeysightScope'
+2025-06-12_1242_05
+--------------------------------------------------------------------------------
+********************************************************************************
+Exception occurred during Test run:
+Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+    print("Connected to scope at %s" % scopeIpAddress)
+NameError: name 'scopeIpAddress' is not defined
+Test took 322 milliseconds
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_DPHY_GENERATOR initialized

@@ -1,0 +1,3 @@
+Pinetree (v 25.2.b1)
+Starting firmware update...
+Disconnecting from hardware (if not already disconnected)

@@ -1,0 +1,25 @@
+Pinetree (v 25.2.b1)
+Win32 exception occurred releasing IUnknown at 0x0000015ED955C940
+--------------------------------------------------------------------------------
+*** Starting Test 'DPTX_Cal_Lecroy'
+2025-06-16_1934_35
+--------------------------------------------------------------------------------
+ERROR: Exception when executing function 'initScope':
+com_error: (-2147221008, 'CoInitialize has not been called.', None, None)
+Traceback (most recent call last):
+  File "<string>", line 4, in initScope
+    osci=win32com.client.Dispatch("LeCroy.ActiveDSOCtrl.1")
+  File "C:\Introspect\IntrospectESP_25.2.b1\PythonEnv\lib\site-packages\win32com\client\__init__.py", line 117, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)
+  File "C:\Introspect\IntrospectESP_25.2.b1\PythonEnv\lib\site-packages\win32com\client\dynamic.py", line 103, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+  File "C:\Introspect\IntrospectESP_25.2.b1\PythonEnv\lib\site-packages\win32com\client\dynamic.py", line 86, in _GetGoodDispatch
+    IDispatch, None, clsctx, pythoncom.IID_IDispatch
+********************************************************************************
+Test run aborted due to error
+Test took 2 milliseconds
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_DPHY_GENERATOR initialized

@@ -1,0 +1,126 @@
+# DateTime: 2025-07-07_1638_11
+# SVT version: 25.2.0
+# Form factor: SV5C_4L8G_MIPI_CPHY_GENERATOR
+# subPart 'SV5C_4L8G_MIPI_CPHY_GENERATOR_A' info
+#     Connected to  INSV5T221127A
+#     firmwareId:   FWSV5CCPTX01C010
+#     firmwareRev:  FW000003
+#     hardwareId:   HW000004
+#     hardwareRev:  E
+#     moduleSerial: 79-0057
+# subPart 'SV5C_4L8G_MIPI_CPHY_GENERATOR_B' info
+#     Not connected
+# Test: C:\Users\Primeasure-BLR\Desktop\Demo_SV5C_Rx_Cal_latest_FW_SW\SV5C_CPRX_calibration_Scripts\rxPhaseCal\SV5C_CPTX_phase_Cal_Generator
+
+   +3.833ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.168ms: # unstorePattern(rxChannels=None, txChannels=None, component=LPD3_PATTERN_SLOT0, ignoreKeepInMemory=False, subChannel=None)
+   +0.190ms: # storePattern(data=[85 85 85 85 85 85  0  0], rxChannels=None, txChannels=[1, 2, 3, 4], subChannel=None, keepInMemory=False, component=LPD3_PATTERN_SLOT0)
+   +0.170ms: # storeUserPatternBytes(subPart=<SubPart 'SV5C_4L8G_MIPI_CPHY_GENERATOR_A'>, slotIdx=11, dataBytes=[85 85 85 85 85 85  0  0], patternTarget=T1, isRx=False, keepInMemory=False, tag=<weakref; to 'SvtUserPatternFromBytes'>, md5Digest=None)
+   +0.147ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x0B value=0x00000008
+   +3.309ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.026ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.917ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.073ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x0B dataStr=5555555555550000 delay1=None delay2=20 delay3=20
+  +46.049ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.048ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.901ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.403ms: # storePattern(data=[170], rxChannels=None, txChannels=[1, 2, 3, 4], subChannel=None, keepInMemory=False, component=UNDEFINED)
+   +0.217ms: # storePatternSequence(subPart=<SubPart 'SV5C_4L8G_MIPI_CPHY_GENERATOR_A'>, userSlots=[11, 2], repeatCounts=[1, 1], loopCount=65535)
+   +0.032ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0320 target=0x06 dataStr=0001000b000100020000ffff
+   +5.348ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.174ms: # _setMipiPatternSequence(mode=LP, seqSlot=6, laneOrLanes=3)
+   +0.038ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0504 target=0x20 value=0x00030006
+   +3.782ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.159ms: # unstorePattern(rxChannels=None, txChannels=None, component=LPD4_PATTERN_SLOT0, ignoreKeepInMemory=False, subChannel=None)
+   +0.154ms: # storePattern(data=[85 85 85 85 85 85  0  0], rxChannels=None, txChannels=[1, 2, 3, 4], subChannel=None, keepInMemory=False, component=LPD4_PATTERN_SLOT0)
+   +0.152ms: # storeUserPatternBytes(subPart=<SubPart 'SV5C_4L8G_MIPI_CPHY_GENERATOR_A'>, slotIdx=12, dataBytes=[85 85 85 85 85 85  0  0], patternTarget=T1, isRx=False, keepInMemory=False, tag=<weakref; to 'SvtUserPatternFromBytes'>, md5Digest=None)
+   +0.136ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x0C value=0x00000008
+   +3.406ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.028ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.990ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.093ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x0C dataStr=5555555555550000 delay1=None delay2=20 delay3=20
+  +45.879ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.032ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.952ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.267ms: # storePattern(data=[170], rxChannels=None, txChannels=[1, 2, 3, 4], subChannel=None, keepInMemory=False, component=UNDEFINED)
+   +0.121ms: # storePatternSequence(subPart=<SubPart 'SV5C_4L8G_MIPI_CPHY_GENERATOR_A'>, userSlots=[12, 2], repeatCounts=[1, 1], loopCount=65535)
+   +0.021ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0320 target=0x07 dataStr=0001000c000100020000ffff
+   +5.620ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.083ms: # _setMipiPatternSequence(mode=LP, seqSlot=7, laneOrLanes=4)
+   +0.023ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0504 target=0x80 value=0x00030007
+   +3.807ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.078ms: # unstorePattern(rxChannels=None, txChannels=None, component=SEQ_PATTERN_SLOT0, ignoreKeepInMemory=False, subChannel=None)
+   +0.181ms: # storePattern(data=[ 15  85  85  85  85  85  85  85  85   0   0   0   0   0   0   0  15  85
+  85  85  85  85  85  85  85   0   0   0   0  64   0   0   0  85  85  85
+  85  85  85  85  85   0   0   0   0  96   0   0  15  85  85  85  85  85
+  85  85  85   0   0   0   0   0   0   0   0  85  85  85  85  85  85  85
+  85   0   0   0   0  96   0   0 240 170 170 170 170 170 170 170 170 255
+ 255 255 255  16   0   0], rxChannels=None, txChannels=[1, 2, 3, 4], subChannel=None, keepInMemory=False, component=SEQ_PATTERN_SLOT0)
+   +0.189ms: # storeUserPatternBytes(subPart=<SubPart 'SV5C_4L8G_MIPI_CPHY_GENERATOR_A'>, slotIdx=13, dataBytes=[ 15  85  85  85  85  85  85  85  85   0   0   0   0   0   0   0  15  85
+  85  85  85  85  85  85  85   0   0   0   0  64   0   0   0  85  85  85
+  85  85  85  85  85   0   0   0   0  96   0   0  15  85  85  85  85  85
+  85  85  85   0   0   0   0   0   0   0   0  85  85  85  85  85  85  85
+  85   0   0   0   0  96   0   0 240 170 170 170 170 170 170 170 170 255
+ 255 255 255  16   0   0], patternTarget=T1, isRx=False, keepInMemory=False, tag=<weakref; to 'SvtUserPatternFromBytes'>, md5Digest=None)
+   +0.082ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x0D value=0x00000060
+   +3.579ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.017ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.922ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.055ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x0D dataStr=0F5555555555555555000000000000000F555555555555555500000000400000005555555555555555000000006000000F55555555555555550000000000000000555555555555555500000000600000F0AAAAAAAAAAAAAAAAFFFFFFFF100000 delay1=None delay2=20 delay3=20
+  +45.978ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.021ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.932ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.095ms: # unstorePattern(rxChannels=None, txChannels=None, component=SEQ_PATTERN_SLOT1, ignoreKeepInMemory=False, subChannel=None)
+   +0.114ms: # storePattern(data=[240 170 170 170 170 170 170 170 170 255 255 255 255   0   0   0   0 170
+ 170 170 170 170 170 170 170 255 255 255 255  95 192   0], rxChannels=None, txChannels=[1, 2, 3, 4], subChannel=None, keepInMemory=False, component=SEQ_PATTERN_SLOT1)
+   +0.110ms: # storeUserPatternBytes(subPart=<SubPart 'SV5C_4L8G_MIPI_CPHY_GENERATOR_A'>, slotIdx=14, dataBytes=[240 170 170 170 170 170 170 170 170 255 255 255 255   0   0   0   0 170
+ 170 170 170 170 170 170 170 255 255 255 255  95 192   0], patternTarget=T1, isRx=False, keepInMemory=False, tag=<weakref; to 'SvtUserPatternFromBytes'>, md5Digest=None)
+   +0.085ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x0E value=0x00000020
+   +3.600ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.014ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +4.051ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.044ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x0E dataStr=F0AAAAAAAAAAAAAAAAFFFFFFFF00000000AAAAAAAAAAAAAAAAFFFFFFFF5FC000 delay1=None delay2=20 delay3=20
+  +45.813ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.019ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.907ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.150ms: # storePattern(data=[170], rxChannels=None, txChannels=[1, 2, 3, 4], subChannel=None, keepInMemory=False, component=UNDEFINED)
+   +0.085ms: # storePatternSequence(subPart=<SubPart 'SV5C_4L8G_MIPI_CPHY_GENERATOR_A'>, userSlots=[13, 14, 2], repeatCounts=[1, 1, 1], loopCount=65535)
+   +0.011ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0320 target=0x08 dataStr=0001000d0001000e000100020000ffff
+   +5.717ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.089ms: # _setMipiPatternSequence(mode=SEQ, seqSlot=8, laneOrLanes=None)
+   +0.018ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0506 target=None value=0x00030008
+   +3.917ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.043ms: # setTxPrbsOrder(prbsOrder=9, laneOrLanes=[1, 2, 3, 4])
+   +0.082ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0330 target=0x0F value=0x00000009
+   +3.916ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.101ms: # setPrbsSeed(seed32=2575333530, laneOrLanes=[1, 2, 3, 4])
+   +0.050ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0334 target=0x0F value=0x9980789A
+   +3.806ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.214ms: # setMipiBtaAckDuration(durationNs=98.0)
+   +0.081ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x06B0 target=None value=0x00000062
+   +3.704ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.060ms: # setMipiBtaGetDurationMultiple(multiplier=5)
+   +0.039ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x06B2 target=None value=0x00000004
+   +3.915ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.155ms: # setMipiBtaSureDuration(durationNs=98.0)
+   +0.094ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x06B4 target=None value=0x00000062
+   +3.738ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.216ms: # startMipiPatterns()
+   +0.069ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.718ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.056ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0304 target=0x55 value=0x000000FF delay1=None delay2=2
+   +5.934ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.041ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +4.020ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.056ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0304 target=0xAA value=0x000000FF delay1=None delay2=2
+   +5.921ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.107ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.919ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.042ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0308 target=None value=0x000000FF
+   +4.017ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.167ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.781ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.144ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0C40 target=0x00 value=0x00000000
+   +3.823ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.041ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +7.966ms: SV5C_4L8G_MIPI_CPHY_GENERATOR_A: result: success

@@ -1,0 +1,123 @@
+Pinetree (v 25.2.0)
+Connecting to serialNum 'FTDI:INSV5R230620A'
+Connected to subPart 'SV5C_4L8G_MIPI_CPHY_ANALYZER_A'
+Connecting to serialNum 'FTDI:INSV5R230620B'
+Initializing IESP hardware/firmware
+Firmware: FWSV5CCPRX01C008_FW00
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'SV5C_CPRX_analogCapture_Cal_Analyzer'
+2025-07-04_1416_10
+--------------------------------------------------------------------------------
+Starting clock config setup
+Starting clock config setup
+Selecting sub-receiver 0
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+USB3: Transferring data over USB3 connection
+doing Analog Capture analysis
+Measuring level 100.0mV
+{1: {'wireAB': 219.4163, 'wireBC': 244.95917, 'wireCA': 257.36503}, 2: {'wireAB': 234.59709, 'wireBC': 301.88139, 'wireCA': 260.40062}, 3: {'wireAB': 291.75157, 'wireBC': 239.49591, 'wireCA': 252.92526}, 4: {'wireAB': 317.86066, 'wireBC': 198.42633, 'wireCA': 324.99702}} {1: {'wireAB': -219.57316, 'wireBC': -159.72426, 'wireCA': -241.27672}, 2: {'wireAB': -241.65451, 'wireBC': -180.45519, 'wireCA': -228.67115}, 3: {'wireAB': -148.46349, 'wireBC': -310.05708, 'wireCA': -190.38088}, 4: {'wireAB': -141.63996, 'wireBC': -260.79033, 'wireCA': -225.5317}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 125.0mV
+{1: {'wireAB': 264.82318, 'wireBC': 290.8535, 'wireCA': 313.23823}, 2: {'wireAB': 282.21067, 'wireBC': 358.97879, 'wireCA': 311.84234}, 3: {'wireAB': 353.47003, 'wireBC': 314.26872, 'wireCA': 303.79773}, 4: {'wireAB': 385.11643, 'wireBC': 255.27878, 'wireCA': 391.59851}} {1: {'wireAB': -266.44616, 'wireBC': -204.81968, 'wireCA': -295.452}, 2: {'wireAB': -297.16001, 'wireBC': -230.51486, 'wireCA': -284.67817}, 3: {'wireAB': -198.94542, 'wireBC': -386.69866, 'wireCA': -241.99128}, 4: {'wireAB': -197.29838, 'wireBC': -327.12201, 'wireCA': -294.99752}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 150.0mV
+{1: {'wireAB': 308.08772, 'wireBC': 333.62357, 'wireCA': 365.39261}, 2: {'wireAB': 337.4381, 'wireBC': 411.2666, 'wireCA': 373.40683}, 3: {'wireAB': 402.47549, 'wireBC': 377.64492, 'wireCA': 351.89792}, 4: {'wireAB': 438.42107, 'wireBC': 295.21701, 'wireCA': 449.29515}} {1: {'wireAB': -309.18223, 'wireBC': -245.45741, 'wireCA': -347.64153}, 2: {'wireAB': -353.11978, 'wireBC': -277.78891, 'wireCA': -347.43241}, 3: {'wireAB': -241.12599, 'wireBC': -449.44279, 'wireCA': -289.85645}, 4: {'wireAB': -239.32604, 'wireBC': -382.91211, 'wireCA': -360.82316}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 175.0mV
+{1: {'wireAB': 351.21594, 'wireBC': 371.78534, 'wireCA': 426.28219}, 2: {'wireAB': 375.39781, 'wireBC': 464.45687, 'wireCA': 425.2942}, 3: {'wireAB': 460.44301, 'wireBC': 442.03261, 'wireCA': 406.75607}, 4: {'wireAB': 494.05892, 'wireBC': 334.1248, 'wireCA': 516.11177}} {1: {'wireAB': -355.57891, 'wireBC': -284.94863, 'wireCA': -405.14611}, 2: {'wireAB': -400.27253, 'wireBC': -321.64525, 'wireCA': -399.76288}, 3: {'wireAB': -288.95268, 'wireBC': -516.58466, 'wireCA': -344.92584}, 4: {'wireAB': -282.52011, 'wireBC': -438.21131, 'wireCA': -430.96431}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 210.0mV
+{1: {'wireAB': 408.35326, 'wireBC': 428.08472, 'wireCA': 500.10484}, 2: {'wireAB': 436.72718, 'wireBC': 540.59965, 'wireCA': 501.76008}, 3: {'wireAB': 518.68113, 'wireBC': 531.89071, 'wireCA': 468.01758}, 4: {'wireAB': 564.11572, 'wireBC': 394.67642, 'wireCA': 595.55373}} {1: {'wireAB': -410.1304, 'wireBC': -342.10354, 'wireCA': -472.43263}, 2: {'wireAB': -467.51398, 'wireBC': -388.86317, 'wireCA': -476.63081}, 3: {'wireAB': -339.348, 'wireBC': -587.51321, 'wireCA': -408.95695}, 4: {'wireAB': -331.65009, 'wireBC': -523.71691, 'wireCA': -524.17622}}
+Toggling odd phase state.
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 100.0mV
+{1: {'wireAB': 264.97052, 'wireBC': 212.44398, 'wireCA': 242.91482}, 2: {'wireAB': 257.86601, 'wireBC': 255.29716, 'wireCA': 262.20219}, 3: {'wireAB': 243.97187, 'wireBC': 201.42303, 'wireCA': 217.15812}, 4: {'wireAB': 231.84164, 'wireBC': 278.23879, 'wireCA': 301.17262}} {1: {'wireAB': -199.15287, 'wireBC': -185.34004, 'wireCA': -259.445}, 2: {'wireAB': -221.573, 'wireBC': -184.42464, 'wireCA': -204.50374}, 3: {'wireAB': -149.96073, 'wireBC': -306.49347, 'wireCA': -216.47281}, 4: {'wireAB': -210.29416, 'wireBC': -164.25742, 'wireCA': -169.94836}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 125.0mV
+{1: {'wireAB': 317.17496, 'wireBC': 257.49726, 'wireCA': 298.71987}, 2: {'wireAB': 311.85237, 'wireBC': 299.42355, 'wireCA': 312.63741}, 3: {'wireAB': 292.73626, 'wireBC': 260.21356, 'wireCA': 261.37564}, 4: {'wireAB': 277.7679, 'wireBC': 354.19432, 'wireCA': 350.19193}} {1: {'wireAB': -247.28644, 'wireBC': -229.69722, 'wireCA': -317.37027}, 2: {'wireAB': -274.00327, 'wireBC': -232.02802, 'wireCA': -252.13171}, 3: {'wireAB': -197.9988, 'wireBC': -377.34575, 'wireCA': -265.97668}, 4: {'wireAB': -275.61424, 'wireBC': -199.26228, 'wireCA': -217.73396}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 150.0mV
+{1: {'wireAB': 362.54798, 'wireBC': 296.16974, 'wireCA': 350.80373}, 2: {'wireAB': 366.57989, 'wireBC': 343.00604, 'wireCA': 370.96339}, 3: {'wireAB': 330.97135, 'wireBC': 308.92862, 'wireCA': 304.86979}, 4: {'wireAB': 320.85464, 'wireBC': 404.44375, 'wireCA': 394.19443}} {1: {'wireAB': -291.22244, 'wireBC': -268.42833, 'wireCA': -368.52018}, 2: {'wireAB': -324.35736, 'wireBC': -278.65182, 'wireCA': -306.86221}, 3: {'wireAB': -237.58406, 'wireBC': -435.81558, 'wireCA': -314.13498}, 4: {'wireAB': -318.62965, 'wireBC': -240.46009, 'wireCA': -260.01473}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 175.0mV
+{1: {'wireAB': 412.21291, 'wireBC': 332.8799, 'wireCA': 410.11531}, 2: {'wireAB': 411.80576, 'wireBC': 383.38009, 'wireCA': 421.82709}, 3: {'wireAB': 374.62738, 'wireBC': 354.3808, 'wireCA': 352.0325}, 4: {'wireAB': 370.01158, 'wireBC': 450.12781, 'wireCA': 440.96957}} {1: {'wireAB': -340.37465, 'wireBC': -305.92211, 'wireCA': -428.24268}, 2: {'wireAB': -368.03604, 'wireBC': -319.98915, 'wireCA': -347.27455}, 3: {'wireAB': -279.73521, 'wireBC': -491.37431, 'wireCA': -368.57674}, 4: {'wireAB': -366.52246, 'wireBC': -278.89308, 'wireCA': -310.08462}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 210.0mV
+{1: {'wireAB': 471.04118, 'wireBC': 383.79921, 'wireCA': 482.19556}, 2: {'wireAB': 482.18707, 'wireBC': 440.72266, 'wireCA': 491.31277}, 3: {'wireAB': 417.34828, 'wireBC': 417.36409, 'wireCA': 408.18706}, 4: {'wireAB': 427.96119, 'wireBC': 524.71165, 'wireCA': 491.23477}} {1: {'wireAB': -394.32534, 'wireBC': -362.09576, 'wireCA': -495.75694}, 2: {'wireAB': -430.04394, 'wireBC': -380.73478, 'wireCA': -411.6758}, 3: {'wireAB': -321.88063, 'wireBC': -570.77737, 'wireCA': -431.18008}, 4: {'wireAB': -419.06358, 'wireBC': -336.63792, 'wireCA': -366.65298}}
+Starting clock config setup
+Selecting sub-receiver 1
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 100.0mV
+{1: {'wireAB': 278.68144, 'wireBC': 299.46157, 'wireCA': 203.72367}, 2: {'wireAB': 251.88815, 'wireBC': 355.19558, 'wireCA': 274.92755}, 3: {'wireAB': 202.75199, 'wireBC': 168.46843, 'wireCA': 213.59679}, 4: {'wireAB': 253.22349, 'wireBC': 330.37609, 'wireCA': 295.84548}} {1: {'wireAB': -214.35565, 'wireBC': -198.98697, 'wireCA': -235.29876}, 2: {'wireAB': -258.04451, 'wireBC': -145.72657, 'wireCA': -202.40823}, 3: {'wireAB': -192.79369, 'wireBC': -251.4145, 'wireCA': -189.97799}, 4: {'wireAB': -186.99154, 'wireBC': -152.53243, 'wireCA': -166.60643}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 125.0mV
+{1: {'wireAB': 336.52858, 'wireBC': 356.98868, 'wireCA': 251.9542}, 2: {'wireAB': 308.24959, 'wireBC': 416.84178, 'wireCA': 333.49512}, 3: {'wireAB': 252.44519, 'wireBC': 214.9761, 'wireCA': 255.16525}, 4: {'wireAB': 316.42075, 'wireBC': 395.97639, 'wireCA': 347.528}} {1: {'wireAB': -261.75122, 'wireBC': -249.69216, 'wireCA': -280.46046}, 2: {'wireAB': -316.42981, 'wireBC': -200.05064, 'wireCA': -251.49786}, 3: {'wireAB': -245.83174, 'wireBC': -310.88746, 'wireCA': -231.30508}, 4: {'wireAB': -242.38481, 'wireBC': -212.47429, 'wireCA': -217.37889}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 150.0mV
+{1: {'wireAB': 391.19632, 'wireBC': 410.79585, 'wireCA': 295.83195}, 2: {'wireAB': 370.35751, 'wireBC': 474.82435, 'wireCA': 399.81104}, 3: {'wireAB': 294.37834, 'wireBC': 258.35076, 'wireCA': 291.94125}, 4: {'wireAB': 367.06839, 'wireBC': 451.54488, 'wireCA': 395.1564}} {1: {'wireAB': -307.11457, 'wireBC': -299.74199, 'wireCA': -325.1439}, 2: {'wireAB': -379.00029, 'wireBC': -244.67906, 'wireCA': -302.74952}, 3: {'wireAB': -286.97059, 'wireBC': -362.74253, 'wireCA': -271.02737}, 4: {'wireAB': -287.70511, 'wireBC': -256.07573, 'wireCA': -260.64486}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 175.0mV
+{1: {'wireAB': 456.01084, 'wireBC': 466.158, 'wireCA': 347.24378}, 2: {'wireAB': 422.71039, 'wireBC': 529.24894, 'wireCA': 457.20965}, 3: {'wireAB': 340.3988, 'wireBC': 298.63283, 'wireCA': 333.44592}, 4: {'wireAB': 423.76945, 'wireBC': 502.31726, 'wireCA': 448.40312}} {1: {'wireAB': -364.91441, 'wireBC': -349.38799, 'wireCA': -372.48791}, 2: {'wireAB': -433.56934, 'wireBC': -292.49966, 'wireCA': -341.39581}, 3: {'wireAB': -336.91854, 'wireBC': -409.82281, 'wireCA': -315.20228}, 4: {'wireAB': -340.6119, 'wireBC': -304.98552, 'wireCA': -309.7285}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 210.0mV
+{1: {'wireAB': 526.25079, 'wireBC': 542.20914, 'wireCA': 399.6457}, 2: {'wireAB': 496.85776, 'wireBC': 620.99752, 'wireCA': 547.98583}, 3: {'wireAB': 387.54686, 'wireBC': 350.41057, 'wireCA': 381.48315}, 4: {'wireAB': 484.38442, 'wireBC': 580.21327, 'wireCA': 503.94455}} {1: {'wireAB': -419.65141, 'wireBC': -415.26485, 'wireCA': -426.02258}, 2: {'wireAB': -511.10893, 'wireBC': -359.42529, 'wireCA': -401.21165}, 3: {'wireAB': -384.36407, 'wireBC': -477.57908, 'wireCA': -366.46029}, 4: {'wireAB': -398.30869, 'wireBC': -370.07672, 'wireCA': -363.61168}}
+Toggling odd phase state.
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 100.0mV
+{1: {'wireAB': 244.69264, 'wireBC': 287.12811, 'wireCA': 228.85906}, 2: {'wireAB': 209.54354, 'wireBC': 305.72117, 'wireCA': 220.97881}, 3: {'wireAB': 183.52218, 'wireBC': 210.92464, 'wireCA': 220.51654}, 4: {'wireAB': 248.26379, 'wireBC': 200.48939, 'wireCA': 237.70344}} {1: {'wireAB': -211.04373, 'wireBC': -197.58543, 'wireCA': -224.54593}, 2: {'wireAB': -285.76555, 'wireBC': -165.9568, 'wireCA': -220.4257}, 3: {'wireAB': -208.02659, 'wireBC': -207.6894, 'wireCA': -181.23897}, 4: {'wireAB': -182.95186, 'wireBC': -243.23442, 'wireCA': -211.68103}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 125.0mV
+{1: {'wireAB': 293.8537, 'wireBC': 339.50898, 'wireCA': 285.20934}, 2: {'wireAB': 257.91367, 'wireBC': 346.85789, 'wireCA': 270.51179}, 3: {'wireAB': 230.99017, 'wireBC': 267.07736, 'wireCA': 263.82388}, 4: {'wireAB': 306.55421, 'wireBC': 251.9277, 'wireCA': 282.55968}} {1: {'wireAB': -259.92956, 'wireBC': -246.80253, 'wireCA': -270.98642}, 2: {'wireAB': -343.61257, 'wireBC': -222.9856, 'wireCA': -265.99732}, 3: {'wireAB': -259.92052, 'wireBC': -268.0552, 'wireCA': -219.39901}, 4: {'wireAB': -231.17062, 'wireBC': -306.40145, 'wireCA': -261.32839}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 150.0mV
+{1: {'wireAB': 337.22016, 'wireBC': 388.68931, 'wireCA': 335.71849}, 2: {'wireAB': 313.35296, 'wireBC': 399.51775, 'wireCA': 323.88466}, 3: {'wireAB': 271.3688, 'wireBC': 313.48051, 'wireCA': 303.70975}, 4: {'wireAB': 353.85226, 'wireBC': 295.00373, 'wireCA': 325.6552}} {1: {'wireAB': -304.22577, 'wireBC': -296.6018, 'wireCA': -315.275}, 2: {'wireAB': -408.35333, 'wireBC': -267.95447, 'wireCA': -312.1373}, 3: {'wireAB': -301.68273, 'wireBC': -313.80314, 'wireCA': -254.51495}, 4: {'wireAB': -271.85961, 'wireBC': -355.85258, 'wireCA': -311.41412}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 175.0mV
+{1: {'wireAB': 384.89461, 'wireBC': 434.39398, 'wireCA': 396.25393}, 2: {'wireAB': 355.8897, 'wireBC': 441.74695, 'wireCA': 367.15287}, 3: {'wireAB': 313.76756, 'wireBC': 358.19585, 'wireCA': 345.79188}, 4: {'wireAB': 406.49188, 'wireBC': 332.5682, 'wireCA': 372.60396}} {1: {'wireAB': -357.33245, 'wireBC': -344.6881, 'wireCA': -363.77718}, 2: {'wireAB': -459.75332, 'wireBC': -310.8457, 'wireCA': -348.38518}, 3: {'wireAB': -353.2976, 'wireBC': -359.8636, 'wireCA': -296.03264}, 4: {'wireAB': -318.74474, 'wireBC': -406.04441, 'wireCA': -363.0362}}
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+Measuring level 210.0mV
+{1: {'wireAB': 440.18533, 'wireBC': 502.09987, 'wireCA': 465.82804}, 2: {'wireAB': 418.47987, 'wireBC': 512.29378, 'wireCA': 435.70122}, 3: {'wireAB': 357.5022, 'wireBC': 423.90395, 'wireCA': 401.75207}, 4: {'wireAB': 465.69506, 'wireBC': 388.80412, 'wireCA': 423.93}} {1: {'wireAB': -410.617, 'wireBC': -410.16634, 'wireCA': -419.92337}, 2: {'wireAB': -539.52567, 'wireBC': -377.83765, 'wireCA': -406.21787}, 3: {'wireAB': -404.10538, 'wireBC': -424.86245, 'wireCA': -342.34387}, 4: {'wireAB': -366.70962, 'wireBC': -469.41308, 'wireCA': -421.85901}}
+Test finished
+Test took 1.7 hours
+--------------------------------------------------------------------------------
+*** Test saved: C:\Users\Primeasure-BLR\Desktop\Demo_SV5C_Rx_Cal_latest_FW_SW\SV5C_CPRX_calibration_Scripts\rxGain0ThresholdCal\SV5C_CPRX_analogCapture_Cal_Analyzer ***

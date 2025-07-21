@@ -1,0 +1,5 @@
+Pinetree (v 25.1.1)
+WARNING: checkConnection failed due to exception:
+Failed to obtain 8 bytes (0 bytes left to send, 0 received, device status=0)
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
