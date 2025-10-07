@@ -1,0 +1,24 @@
+Pinetree (v 25.4.b5)
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_CPHY_ANALYZER initialized
+Opening result: C:\SVN\system\Calibration\SV5\SV5_MIPI\SV5_CPRXDPRX\SV5C_CPRX_calibration_Scripts\rxGain0ThresholdCal\SV5C_CPRX_analogCapture_Cal_Analyzer\Results\89-0086\Lane_data_210.0mV_1_even, CphyAnalogCapture
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "D:\obj\windows-release\37amd64_Release\msi_python\zip_amd64\threading.py", line 926, in _bootstrap_inner
+  File "D:\obj\windows-release\37amd64_Release\msi_python\zip_amd64\threading.py", line 870, in run
+  File "C:\Users\Jack\Documents\sw\Pinetree\trunk\SvtPython\wxViewers\coreWidgets.py", line 201, in threadFct
+  File "C:\Users\Jack\Documents\sw\Pinetree\trunk\SvtPython\wxViewers\wxAnalogCaptureViewer\wxAnalogCaptureViewer.py", line 20, in loadResult
+  File "C:\Users\Jack\Documents\sw\Pinetree\trunk\SvtPython\wxViewers\resultHandler.py", line 21, in loadResult
+AttributeError: 'NoneType' object has no attribute 'getIespInstance'
+
+Opening result: C:\SVN\system\Calibration\SV5\SV5_MIPI\SV5_CPRXDPRX\SV5C_CPRX_calibration_Scripts\rxGain0ThresholdCal\SV5C_CPRX_analogCapture_Cal_Analyzer\Results\rxGain0ThresholdVal\Lane_data_150.0mV_run2, CphyAnalogCapture
+Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "D:\obj\windows-release\37amd64_Release\msi_python\zip_amd64\threading.py", line 926, in _bootstrap_inner
+  File "D:\obj\windows-release\37amd64_Release\msi_python\zip_amd64\threading.py", line 870, in run
+  File "C:\Users\Jack\Documents\sw\Pinetree\trunk\SvtPython\wxViewers\coreWidgets.py", line 201, in threadFct
+  File "C:\Users\Jack\Documents\sw\Pinetree\trunk\SvtPython\wxViewers\wxAnalogCaptureViewer\wxAnalogCaptureViewer.py", line 20, in loadResult
+  File "C:\Users\Jack\Documents\sw\Pinetree\trunk\SvtPython\wxViewers\resultHandler.py", line 21, in loadResult
+AttributeError: 'NoneType' object has no attribute 'getIespInstance'

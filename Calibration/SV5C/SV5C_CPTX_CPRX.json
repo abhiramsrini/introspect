@@ -1,0 +1,7 @@
+{
+    "name": "SV5C_4L8G_MIPI_CPTX_CPRX",
+    "iespClassMap": {
+        "iespRx": "SV5C_4L8G_MIPI_CPHY_ANALYZER",
+        "iespTx": "SV5C_4L8G_MIPI_CPHY_GENERATOR"
+    }
+}

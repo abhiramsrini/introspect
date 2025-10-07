@@ -1,0 +1,313 @@
+Updating Rx Phase calibration and validation for SV5C-CPRX (31-07-2025)
+----------------------------
+Description:
+- The Rx phase calibration previously tried to match the sync offset of bertScans across all the wires, before measuring the phase delays, but this was prone to failure.
+- Now the algorithm will sweep the rx hsThreshold, and check that the eyewidth of the bertScan is within 85% of the UI before measuring the phase delays. This ensures that the bertScan edges are representative of the eye-crossing, without necessitating that the sync offsets are exactly the same.
+- The validation step will validate the phase delays at 4.5Gsps in part 1, and then measure the combined eyes in part 2 as a sanity check that the wires are properly aligned.
+
+Release calibration flow for SV5C-CPRX (May 08, 2023)
+----------------------------
+Threshold calibration folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdCal>, Revision #87829
+Threshold validation folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdVal>, Revision #87829
+Phase calibration folder
+<http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseCal>, Revision #80964
+Phase validation folder
+<http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseVal>, Revision #80964
+Script to create the calibration flash files
+<http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/Scripts>, Revision #80513
+----------------------------
+Firmware
+    - SV5C-CPTX: FWSV5CCPTX01B008_FW05
+    - SV5C-CPRX: FWSV5CCPRX01B003_FW04
+----------------------------
+Software
+IntrospectIESP version 23.1.0
+----------------------------
+Hardware
+    - SV5C-CPRX unit to calibrate
+    - SV5C-CPTX
+    - MXP cable
+    - Connect the external clock of SV5C-CPRX to SV5C-CPTX
+----------------------------
+Description
+The calibration is divided into two parts:
+    - Find the threshold offsets: 
+      Run eye scan for each wire at 4500 Mbps. 
+	  The offset is obtained by taking the average offset voltage from the position of the eye center at two states (even/odd).
+    - Find the phase offset: 
+      It is done by doing a bert scan for each wire. The data rate used is 4000 Msps. 
+
+The phase validation is divided into three parts for debugging purposes:
+    - SV5C_CPRX_phase_Val_Analyzer_part1: validate the phase offsets at 4000 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part2: run individual eye scans for each wire at 4500 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part3: run combined eye scans at 4500 Msps
+----------------------------
+Steps of the calibration
+    1- Run Scripts/sv5RxGenerateFlash.bat
+    2- Start the threshold calibration (folder: rxThresholdCal)
+    3- Run Scripts/sv5RxGenerateFlash.bat
+    4- Start the threshold validation (folder: rxThresholdVal)
+    5- Start the phase calibration (folder: rxPhaseCal)
+    6- Run Scripts/sv5RxGenerateFlash.bat
+    7- Start the phase validation (folder: rxPhaseVal):
+       7.1- Start SV5C_CPRX_phase_Val_Analyzer_part1
+       7.2- Start SV5C_CPRX_phase_Val_Analyzer_part2
+       7.3- Start SV5C_CPRX_phase_Val_Analyzer_part3
+----------------------------
+Notes:
+* Changed condition for the eyeHeight from 370 mV to 350 mV during threshold calibration/validation. 
+  This is to prevent the threshold offset to be based on an incomplete eye.
+- A popup dialog where the user needs to enter the serial number of the RX unit. 
+  Expected format is 89-xxxx. If the provided serial number is not as expected, the calibration won't start.
+- The result folder will be named as the serial number provided. (In case you don't see the folder in the GUI, try to refresh Results)
+- Before programming the calibration .jam file using Scripts/sv5RxGenerateFlash.bat, please turn off the generator unit.
+
+
+
+
+
+
+Release calibration flow for SV5C-CPRX (Nov 25, 2022)
+----------------------------
+Threshold calibration folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdCal>, Revision #80964
+Threshold validation folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdVal>, Revision #80964
+Phase calibration folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseCal>, Revision #80964
+Phase validation folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseVal>, Revision #80964
+Script to create the calibration flash files
+<http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/Scripts>, Revision #80513
+----------------------------
+Firmware
+    - SV5C-CPTX: FWSV5CCPTX01B008_FW05
+    - SV5C-CPRX: FWSV5CCPRX01B003_FW04
+----------------------------
+Software
+IntrospectIESP version 23.1.b6
+----------------------------
+Hardware
+    - SV5C-CPRX unit to calibrate
+    - SV5C-CPTX
+    - MXP cable
+    - Connect the external clock of SV5C-CPRX to SV5C-CPTX
+----------------------------
+Description
+The calibration is divided into two parts:
+    - Find the threshold offsets: 
+      Run eye scan for each wire at 4500 Mbps. 
+	  The offset is obtained by taking the average offset voltage from the position of the eye center at two states (even/odd).
+    - Find the phase offset: 
+      It is done by doing a bert scan for each wire. The data rate used is 4000 Msps. 
+
+The phase validation is divided into three parts for debugging purposes:
+    - SV5C_CPRX_phase_Val_Analyzer_part1: validate the phase offsets at 4000 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part2: run individual eye scans for each wire at 4500 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part3: run combined eye scans at 4500 Msps
+----------------------------
+Steps of the calibration
+    1- Run Scripts/sv5RxGenerateFlash.bat
+    2- Start the threshold calibration (folder: rxThresholdCal)
+    3- Run Scripts/sv5RxGenerateFlash.bat
+    4- Start the threshold validation (folder: rxThresholdVal)
+    5- Start the phase calibration (folder: rxPhaseCal)
+    6- Run Scripts/sv5RxGenerateFlash.bat
+    7- Start the phase validation (folder: rxPhaseVal):
+       7.1- Start SV5C_CPRX_phase_Val_Analyzer_part1
+       7.2- Start SV5C_CPRX_phase_Val_Analyzer_part2
+       7.3- Start SV5C_CPRX_phase_Val_Analyzer_part3
+----------------------------
+Notes:
+* Update to IntrospectIESP 23.1.b6
+* Add a check for the eyeHeight (at least 370 mV) during threshold calibration/validation. 
+  This is to prevent the threshold offset to be based on an incomplete eye.
+- A popup dialog where the user needs to enter the serial number of the RX unit. 
+  Expected format is 89-xxxx. If the provided serial number is not as expected, the calibration won't start.
+- The result folder will be named as the serial number provided. (In case you don't see the folder in the GUI, try to refresh Results)
+- Before programming the calibration .jam file using Scripts/sv5RxGenerateFlash.bat, please turn off the generator unit.
+
+
+
+
+
+
+Release calibration flow for SV5C-CPRX (Jun 02, 2022)
+----------------------------
+Threshold calibration folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdCal>, Revision #74547
+Threshold validation folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdVal>, Revision #74547
+Phase calibration folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseCal>, Revision #74547
+Phase validation folder
+* <http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseVal>, Revision #74547
+Script to create the calibration flash files
+<http://10.30.30.20/svn/DV1600/system/Calibration/SV5/SV5_MIPI/SV5_CPRXDPRX/Scripts>, Revision #69820
+----------------------------
+Firmware
+    - SV5C-CPTX: FWSV5CCPTX01B007_FW00
+    - SV5C-CPRX: FWSV5CCPRX01A003_FW02
+----------------------------
+Software
+IntrospectIESP version 22.2.2
+----------------------------
+Hardware
+    - SV5C-CPRX unit to calibrate
+    - SV5C-CPTX
+    - MXP cable
+    - Connect the external clock of SV5C-CPRX to SV5C-CPTX
+----------------------------
+Description
+The calibration is divided into two parts:
+    - Find the threshold offsets: 
+      Run eye scan for each wire at 4500 Mbps. 
+	  The offset is obtained by taking the average offset voltage from the position of the eye center at two states (even/odd).
+    - Find the phase offset: 
+      It is done by doing a bert scan for each wire. The data rate used is 4000 Msps. 
+
+The phase validation is divided into three parts for debugging purposes:
+    - SV5C_CPRX_phase_Val_Analyzer_part1: validate the phase offsets at 4000 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part2: run individual eye scans for each wire at 4500 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part3: run combined eye scans at 4500 Msps
+----------------------------
+Steps of the calibration
+    1- Run Scripts/sv5RxGenerateFlash.bat
+    2- Start the threshold calibration (folder: rxThresholdCal)
+    3- Run Scripts/sv5RxGenerateFlash.bat
+    4- Start the threshold validation (folder: rxThresholdVal)
+    5- Start the phase calibration (folder: rxPhaseCal)
+    6- Run Scripts/sv5RxGenerateFlash.bat
+    7- Start the phase validation (folder: rxPhaseVal):
+       7.1- Start SV5C_CPRX_phase_Val_Analyzer_part1
+       7.2- Start SV5C_CPRX_phase_Val_Analyzer_part2
+       7.3- Start SV5C_CPRX_phase_Val_Analyzer_part3
+----------------------------
+Notes:
+* Update to IntrospectIESP 22.2.2
+* Add a popup dialog where the user needs to enter the serial number of the RX unit. 
+  Expected format is 89-xxxx. If the provided serial number is not as expected, the calibration won't start.
+* The result folder will be named as the serial number provided. (In case you don't see the folder in the GUI, try to refresh Results)
+* Run 3 eye scans before actually starting the calibration to let the unit warm up. 
+  Note that the results of these dummy eye scans won't be saved.
+* Added a CSV report for the threshold validation showing PASS/FAIL for each wire.
+- Before programming the calibration .jam file using Scripts/sv5RxGenerateFlash.bat, please turn off the generator unit.
+
+
+
+
+
+
+Release calibration flow for SV5C-CPRX (Apr 27, 2022)
+----------------------------
+Threshold calibration folder
+* <http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdCal>, Revision #72825
+Threshold validation folder
+* <http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdVal>, Revision #72825
+Phase calibration folder
+* <http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseCal>, Revision #72825
+Phase validation folder
+* <http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseVal>, Revision #72825
+Script to create the calibration flash files
+<http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/Scripts>, Revision #69820
+----------------------------
+Firmware
+    - SV5C-CPTX: FWSV5CCPTX01B005_FW03
+    - SV5C-CPRX: FWSV5CCPRX01A003_FW02
+----------------------------
+Software
+IntrospectIESP version 22.1.0
+----------------------------
+Hardware
+    - SV5C-CPRX unit to calibrate
+    - SV5C-CPTX
+    - MXP cable
+    - Connect the external clock of SV5C-CPRX to SV5C-CPTX
+----------------------------
+Description
+The calibration is divided into two parts:
+    - Find the threshold offsets: 
+      Run eye scan for each wire at 4500 Mbps. The offset is obtained by taking the average offset voltage from the position of the eye center at two states (even/odd).
+    - Find the phase offset: 
+      It is done by doing a bert scan for each wire. The data rate used is 4000 Msps. 
+
+The phase validation is divided into three parts for debugging purposes:
+    - SV5C_CPRX_phase_Val_Analyzer_part1: validate the phase offsets at 4000 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part2: run individual eye scans for each wire at 4500 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part3: run combined eye scans at 4500 Msps
+----------------------------
+Steps of the calibration
+    1- Run Scripts/sv5RxGenerateFlash.bat
+    2- Start the threshold calibration (folder: rxThresholdCal)
+    3- Run Scripts/sv5RxGenerateFlash.bat
+    4- Start the threshold validation (folder: rxThresholdVal)
+    5- Start the phase calibration (folder: rxPhaseCal)
+    6- Run Scripts/sv5RxGenerateFlash.bat
+    7- Start the phase validation (folder: rxPhaseVal):
+       7.1- Start SV5C_CPRX_phase_Val_Analyzer_part1
+       7.2- Start SV5C_CPRX_phase_Val_Analyzer_part2
+       7.3- Start SV5C_CPRX_phase_Val_Analyzer_part3
+----------------------------
+Notes:
+* Update to IntrospectIESP 22.1.0
+- Before programming the calibration .jam file using Scripts/sv5RxGenerateFlash.bat, please turn off the generator unit.
+
+
+
+
+
+
+Release calibration flow for SV5C-CPRX (Feb 07, 2022)
+----------------------------
+Threshold calibration folder
+* <http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdCal>, Revision #69816
+Threshold validation folder
+* <http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxThresholdVal>, Revision #69816
+Phase calibration folder
+* <http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseCal>, Revision #69816
+Phase validation folder
+* <http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/SV5C_CPRX_calibration_Scripts/rxPhaseVal>, Revision #69816
+Script to create the calibration flash files
+* <http://10.30.30.20/svn/DV1600/sw/Scripts/Calibration/SV5_MIPI/SV5_CPRXDPRX/Scripts>, Revision #69820
+----------------------------
+Firmware
+<http://10.30.30.20/svn/DV1600/fw/iESP_SV5/Branches/FW_SV5C_CPRX_01_AXXX/build/DJ60Program_e.jam>, Revision #62633
+----------------------------
+Software
+IntrospectIESP version 21.3.b4
+----------------------------
+Hardware
+    - SV5C-CPRX unit to calibrate
+    - SV5C-CPTX
+    - MXP cable
+    - Connect the external clock of SV5C-CPRX to SV5C-CPTX
+----------------------------
+Description
+The calibration is divided into two parts:
+    - Find the threshold offsets: 
+      Run eye scan for each wire at 4500 Mbps. The offset is obtained by taking the average offset voltage from the position of the eye center at two states (even/odd).
+    - Find the phase offset: 
+      It is done by doing a bert scan for each wire. The data rate used is 4000 Msps. 
+
+The phase validation is divided into three parts for debugging purposes:
+    - SV5C_CPRX_phase_Val_Analyzer_part1: validate the phase offsets at 4000 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part2: run individual eye scans for each wire at 4500 Msps
+    - SV5C_CPRX_phase_Val_Analyzer_part3: run combined eye scans at 4500 Msps
+----------------------------
+Steps of the calibration
+    1- Run Scripts/sv5RxGenerateFlash.bat
+    2- Start the threshold calibration (folder: rxThresholdCal)
+    3- Run Scripts/sv5RxGenerateFlash.bat
+    4- Start the threshold validation (folder: rxThresholdVal)
+    5- Start the phase calibration (folder: rxPhaseCal)
+    6- Run Scripts/sv5RxGenerateFlash.bat
+    7- Start the phase validation (folder: rxPhaseVal):
+       7.1- Start SV5C_CPRX_phase_Val_Analyzer_part1
+       7.2- Start SV5C_CPRX_phase_Val_Analyzer_part2
+       7.3- Start SV5C_CPRX_phase_Val_Analyzer_part3
+----------------------------
+Notes:
+* The dataRecord "calParams" in the analyser procedures has a field called moduleName. The user needs to enter the serial number of the unit to be calibrated.
+* Before programming the calibration .jam file using Scripts/sv5RxGenerateFlash.bat, please turn off the generator unit.

@@ -1,0 +1,6 @@
+Pinetree (v 25.2.0)
+*** Test saved: C:\SVN\system\Calibration\SV5\SV5_MIPI\SV5_CPRXDPRX\SV5C_DPRX_calibration_Scripts\rxGain0ThresholdVal\SV5C_DPRX_analogCapture_Val_Analyzer ***
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV5C_4L8G_MIPI_DPHY_ANALYZER initialized
