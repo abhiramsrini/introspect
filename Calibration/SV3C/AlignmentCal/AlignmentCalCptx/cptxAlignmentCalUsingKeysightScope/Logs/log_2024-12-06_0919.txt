@@ -1,0 +1,16 @@
+Pinetree (v 24.3.0)
+WARNING: No available FTDI devices matching the serial number pattern ((^FTDI:IN(D|C|CD)PTX.*)A$) so will use first available that ends with 'A'
+Connecting to serialNum 'FTDI:FTXRR0DNA'
+Connected to subPart 'SV3C_4L3G_MIPI_CPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:FTXRR0DNB'
+Initializing IESP hardware/firmware
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+WARNING: initHardware failed
+WARNING: Failed to correctly initialize hardware; disconnecting.
+Starting firmware update...
+Disconnecting from hardware (if not already disconnected)
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV3C_4L3G_MIPI_CPHY_GENERATOR initialized

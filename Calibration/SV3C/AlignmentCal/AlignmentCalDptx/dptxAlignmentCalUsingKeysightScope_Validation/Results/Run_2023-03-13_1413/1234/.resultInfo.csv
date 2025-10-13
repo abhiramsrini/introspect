@@ -1,0 +1,5 @@
+componentName, resultFolderCreator1
+resultType, CsvData
+resultVersion, 0
+componentClass, SvtResultFolderCreator
+iespClassName, SV3C_4L6G_MIPI_DPHY_GENERATOR

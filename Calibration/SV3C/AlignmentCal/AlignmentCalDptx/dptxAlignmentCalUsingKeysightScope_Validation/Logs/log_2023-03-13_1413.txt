@@ -1,0 +1,44 @@
+Introspect ESP (v 23.1.0)
+Connecting to serialNum 'FTDI:INCPTX17120004A'
+Connected to subPart 'SV3C_4L6G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INCPTX17120004B'
+Initializing IESP hardware/firmware
+formFactor: SV3C_4L6G_MIPI_DPHY_GENERATOR
+firmware for SV3C_4L6G_MIPI_DPHY_GENERATOR: FWSV3CDPTX02A037
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'dptxAlignmentCalUsingKeysightScope_Validation'
+2023-03-13_1413_05
+--------------------------------------------------------------------------------
+C:\Introspect\IntrospectESP_23.1.0\PythonEnv\lib\site-packages\visa.py:23: FutureWarning: The visa module provided by PyVISA is being deprecated. You can replace `import visa` by `import pyvisa as visa` to achieve the same effect.
+The reason for the deprecation is the possible conflict with the visa package provided by the https://github.com/visa-sdk/visa-python which can result in hard to debug situations.
+  FutureWarning,
+C:\Introspect\IntrospectESP_23.1.0\PythonEnv\lib\site-packages\pyvisa\highlevel.py:3355: FutureWarning: get_instrument is deprecated and will be removed in 1.12, use open_resource instead.
+  FutureWarning,
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Measuring D-PHY Lane 1...
+Measuring at 80.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Measuring at 125.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Measuring at 187.500000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Measuring at 6500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Checking measured data...
+********************************************************************************
+Exception occurred during Test run:
+Traceback (most recent call last):
+  File "<string>", line 74, in <module>
+    if failFlag == 0 :
+NameError: name 'failFlag' is not defined
+Test took 1.4 minutes
+--------------------------------------------------------------------------------
+*** Test saved: C:\SVN\system\Calibration\SV3\SV3_CPTXDPTX\CalFlow_v1\AlignmentCal\AlignmentCalDptx\dptxAlignmentCalUsingKeysightScope_Validation ***

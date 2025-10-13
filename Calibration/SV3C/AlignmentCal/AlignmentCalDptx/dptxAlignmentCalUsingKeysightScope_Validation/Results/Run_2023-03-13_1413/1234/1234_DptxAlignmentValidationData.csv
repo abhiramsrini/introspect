@@ -1,0 +1,10 @@
+DPTX Alignment Validation Data
+Serial Number, 1234
+Date, 13/03/2023
+Time, 14:14:26
+ ,
+Lane, Data Rate, Skew Pos, Skew Neg
+1, 80.000000, 0, 3.85716e-13, 
+1, 125.000000, 0, -4.69933e-12, 
+1, 187.500000, 0, -6.39583e-12, 
+1, 6500.000000, 0, -4.21751e-12, 

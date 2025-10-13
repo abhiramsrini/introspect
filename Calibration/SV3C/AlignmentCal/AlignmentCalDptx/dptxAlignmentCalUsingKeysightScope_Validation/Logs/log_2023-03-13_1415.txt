@@ -1,0 +1,29 @@
+Introspect ESP (v 23.1.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dptxAlignmentCalUsingKeysightScope_Validation'
+2023-03-13_1415_09
+--------------------------------------------------------------------------------
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Measuring D-PHY Lane 1...
+Measuring at 80.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Measuring at 125.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Measuring at 187.500000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Measuring at 6500.000000 Mbps...
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Checking measured data...
+Test finished
+Test took 1.3 minutes
+--------------------------------------------------------------------------------
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+*** Test saved: C:\SVN\system\Calibration\SV3\SV3_CPTXDPTX\CalFlow_v1\AlignmentCal\AlignmentCalDptx\dptxAlignmentCalUsingKeysightScope_Validation ***
