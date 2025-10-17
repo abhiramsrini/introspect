@@ -1,0 +1,393 @@
+Pinetree (v 23.3.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxVal_Analyzer'
+2023-09-20_0934_23
+--------------------------------------------------------------------------------
+Starting clock config setup
+Starting clock config setup
+TX: SV3C_4L6G_MIPI_DPHY_GENERATOR
+Serial Number: CDPRX23040014
+Firmware Id: FWSV3CDPRX04B029
+Firmware revision: FW000001
+Hardware revision: E
+100.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+USB3: Transferring data over USB3 connection
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -158.8720962053378
+HIGH 106.06758852435081
+WARNING: Bad Value on Lane 3...
+116.14420266363055
+100.0
+WARNING: Bad Value on Lane 5...
+-158.8720962053378
+100.0
+125.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -185.794495818545
+HIGH 134.65114098398126
+WARNING: Bad Value on Lane 3...
+146.01027767684516
+125.0
+WARNING: Bad Value on Lane 5...
+-185.794495818545
+125.0
+150.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -171.1486170959308
+HIGH 164.78059180667896
+175.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -196.54030117850454
+HIGH 194.77445127930295
+200.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -217.60857907968654
+HIGH 216.35226913286849
+100.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -161.64577292392653
+HIGH 105.48995627896701
+WARNING: Bad Value on Lane 3...
+116.79159362404447
+100.0
+WARNING: Bad Value on Lane 5...
+-161.64577292392653
+100.0
+125.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -187.4296483997398
+HIGH 135.20316794988454
+WARNING: Bad Value on Lane 3...
+145.5266106009596
+125.0
+WARNING: Bad Value on Lane 5...
+-187.4296483997398
+125.0
+150.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -171.9057688242201
+HIGH 168.36992196682687
+175.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -195.78262989728682
+HIGH 197.23770218519178
+200.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -216.8932471727842
+HIGH 216.64638423311
+100.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -162.6102409194516
+HIGH 107.13814490013841
+WARNING: Bad Value on Lane 3...
+116.25200854769248
+100.0
+WARNING: Bad Value on Lane 5...
+-162.6102409194516
+100.0
+125.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -194.4781307261985
+HIGH 135.4295034438746
+WARNING: Bad Value on Lane 3...
+145.643702623218
+125.0
+WARNING: Bad Value on Lane 5...
+-194.4781307261985
+125.0
+150.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -172.59492441032754
+HIGH 167.7645060324328
+WARNING: Bad Value on Lane 5...
+-172.59492441032754
+150.0
+175.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -197.0685912819532
+HIGH 196.39914838030504
+200.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -217.76755389821648
+HIGH 216.17643341310398
+100.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -161.73335176911698
+HIGH 107.95461936727796
+WARNING: Bad Value on Lane 3...
+116.43209158854413
+100.0
+WARNING: Bad Value on Lane 5...
+-161.73335176911698
+100.0
+125.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -191.74626719044497
+HIGH 136.052864991227
+WARNING: Bad Value on Lane 3...
+145.30668880014326
+125.0
+WARNING: Bad Value on Lane 5...
+-191.74626719044497
+125.0
+150.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -172.9434451750135
+HIGH 169.26970706773258
+WARNING: Bad Value on Lane 5...
+-172.9434451750135
+150.0
+175.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -196.40328062669988
+HIGH 196.3216623711464
+200.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -218.8350678589291
+HIGH 217.81237163064546
+100.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -164.24668790333138
+HIGH 107.58683263275502
+WARNING: Bad Value on Lane 3...
+115.94065679188712
+100.0
+WARNING: Bad Value on Lane 5...
+-164.24668790333138
+100.0
+125.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -124.5414179034202
+HIGH 136.03983616957203
+WARNING: Bad Value on Lane 3...
+144.2098591888785
+125.0
+150.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -171.28331888693373
+HIGH 170.08115550151373
+175.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -197.8383874386562
+HIGH 196.65923895259684
+200.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -215.062298966894
+HIGH 217.40858883673585
+****************************************
+****************************************
+****************************************
+Please rename result directory to 1234.
+****************************************
+****************************************
+****************************************
+WARNING: popupDialog: using deprecated kwarg 'htmlUrl' to pass an image file. Please use the 'imagePath' kwarg instead.
+WARNING: popupDialog: using deprecated kwarg 'imgSize' to pass image dimensions. Please use the 'imageWidth' and 'imageHeight' kwarg instead.
+ERROR: popupDialog: imagePath does not exists: /C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Analyzer\Params\Fail.png
+********************************************************************************
+Test run aborted due to error
+Writing partial IESP-level log to 'C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Analyzer\Logs\iespLogBuffer.txt'
+Test took 39.4 minutes
+--------------------------------------------------------------------------------
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.

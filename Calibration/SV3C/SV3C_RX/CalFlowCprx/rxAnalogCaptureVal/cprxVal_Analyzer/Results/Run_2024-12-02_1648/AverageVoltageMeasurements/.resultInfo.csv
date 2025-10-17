@@ -1,0 +1,6 @@
+componentName, resultFolderCreator1
+resultType, Generic
+resultVersion, 0
+componentClass, SvtResultFolderCreator
+iespClass, SV3C_4L3G_MIPI_CPHY_ANALYZER2
+channels, 1 2 3 4

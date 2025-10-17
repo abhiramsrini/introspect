@@ -1,0 +1,114 @@
+# DateTime: 2025-03-11_1646_20
+# SVT version: 25.1.0
+# Form factor: SV3C_4L3G_MIPI_DPHY_ANALYZER2
+# subPart 'SV3C_4L3G_MIPI_DPHY_ANALYZER2_A' info
+#     Connected to  INCPRX230414A
+#     firmwareId:   FWSV3CDPRX04B032
+#     firmwareRev:  FW000002
+#     hardwareId:   HW000001
+#     hardwareRev:  E
+#     moduleSerial: default_CPRX
+# subPart 'SV3C_4L3G_MIPI_DPHY_ANALYZER2_B' info
+#     Not connected
+# Test: C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseCal\dprxCal_Analyzer
+
+   +0.361ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.588ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.234ms: # setMipiClockHsThresholdVoltage(refVoltage=50.0)
+   +0.075ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0410 target=0x10 value=0x0000C350
+   +3.788ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +1.507ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +4.413ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.446ms: # setRxThresholdVoltage(threshold_mV=50.0, channelOrChannels=[1])
+   +0.274ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0410 target=0x01 value=0x0000C350
+   +3.419ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +1.504ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +4.583ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.444ms: # setMipiClockLpThresholdVoltage(refVoltage=600.0)
+   +0.089ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C06 target=0x10 value=0x000927C0
+   +3.239ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.162ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C08 target=0x10 value=0x000927C0
+   +3.958ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.288ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.679ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.412ms: # setMipiDataLpThresholdVoltage(refVoltage=600.0, laneOrLanes=[1])
+   +0.216ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C06 target=0x01 value=0x000927C0
+   +3.350ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.433ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C08 target=0x01 value=0x000927C0
+   +3.555ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.231ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.809ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.365ms: # performLaneSwap(laneOrLanes=[1])
+   +0.174ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0649 target=0x01 value=0x00000000
+   +3.524ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.367ms: # setPacketProtocol(protocolType=1, laneOrLanes=[1])
+   +0.131ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0608 target=None value=0x00000001
+   +3.529ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.495ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0648 target=None value=0x00000001
+   +3.286ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.594ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0648 target=None value=0x00000001
+   +3.590ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.481ms: # setMipiWireTerminationMode(mode=1, wire=pos, laneMask=1)
+   +0.060ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C14 target=0x01 value=0x00000001
+   +3.395ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.182ms: # setMipiWireTerminationMode(mode=1, wire=pos, laneMask=16)
+   +0.069ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C14 target=0x10 value=0x00000001
+   +3.783ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.161ms: # setMipiWireTerminationMode(mode=1, wire=neg, laneMask=1)
+   +0.042ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C15 target=0x01 value=0x00000001
+   +3.825ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.176ms: # setMipiWireTerminationMode(mode=1, wire=neg, laneMask=16)
+   +0.057ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C15 target=0x10 value=0x00000001
+   +3.803ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.156ms: # setDataAutoTerminationOverride(mode=1)
+   +0.404ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C40 target=0x0F value=0x00000001
+   +3.352ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.386ms: # setClockAutoTerminationOverride(mode=1)
+   +0.065ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C40 target=0x10 value=0x00000001
+   +3.619ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.200ms: # setMipiAnalogCaptureMode(mode=0)
+   +0.263ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x066A target=None value=0x00000000
+   +3.525ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.312ms: # setMipiAnalogCapturePatternLen(patternLenBits=64, laneOrLanes=[1])
+   +0.267ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0668 target=0x01 value=0x00000040
+   +3.468ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.548ms: # doAnalogCapture(numBits=64, minVoltage_mV=-630.0, maxVoltage_mV=630.0, laneOrLanes=[1], mode=0, patternLenBits=64, triggerType=1, nthBurst=1, framePeriodType=0, forceFramePeriod=False, forcedFramePeriodDuration=1, lpDuration=500, refLane=None, triggerDelay=0, saveRawResults=False, maxWaitMillis=60000)
+   +0.053ms: # setMipiAnalogCaptureNumBits(numBits=64)
+   +0.133ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0666 target=None value=0x00000040
+   +3.234ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.201ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.754ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.185ms: # setMipiDataFilteringMode(mode=1, laneOrLanes=[1])
+   +0.064ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C16 target=0x01 value=0x00000001
+   +3.775ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.100ms: # setMipiClockFilteringMode(mode=1)
+   +0.035ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C16 target=0x10 value=0x00000001
+   +3.635ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.053ms: # mipiAnalogCaptureStart
+   +0.052ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeDataBlock: addr=0x0660 target=0x01 dataStr=fff6631000099cf0
+   +6.098ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.145ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 60000)
++36048.482ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.288ms: # mipiAnalogCaptureResultSize
+   +0.095ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: readRegister: addr=0x0667 target=0x01
+   +3.550ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: [00 01 FC 00] (130048 = 0x1FC00)
+   +0.181ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 500)
+   +3.697ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.148ms: # mipiAnalogCaptureDataReset
+   +0.261ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0664 target=0x01 value=0x00000000
+   +3.766ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.306ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0672 target=0x01 value=0x0001FC00
+   +3.712ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.075ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.811ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.103ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: readRegister: addr=0x01C0 target=None
+   +3.947ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: [00 00 00 01] (1 = 0x1)
+   +0.109ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x01C6 target=0x00 value=0x00000001 delay1=8 delay2=8
+  +19.989ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.107ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.859ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success
+   +0.166ms: FTD3XX: FT_ReadPipe: reading 130048 bytes
++1089.442ms: FTD3XX: FT_ReadPipe: success
+  +94.408ms: # setMipiCaptureClockSelect(mode=0)
+   +0.228ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: writeRegister: addr=0x0C22 target=None value=0x00000000
+   +3.614ms: SV3C_4L3G_MIPI_DPHY_ANALYZER2_A: result: success

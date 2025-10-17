@@ -1,0 +1,31 @@
+Pinetree (v 23.3.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxVal_Analyzer'
+2023-09-15_0851_57
+--------------------------------------------------------------------------------
+Starting clock config setup
+WARNING: SvtCoordRequest_Register: recv_string timed out (waited 2000 ms)
+ERROR: Failed to register as 'Analyzer'
+********************************************************************************
+Test run aborted due to error
+Writing partial IESP-level log to 'C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Analyzer\Logs\iespLogBuffer.txt'
+Test took 3.8 seconds
+--------------------------------------------------------------------------------
+*** Test saved: C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Analyzer ***
+Traceback (most recent call last):
+  File "/home/dave/Documents/trunk_branch/SvtPython/dftm/pythonForGuiServer.py", line 245, in handleJson
+  File "/home/dave/Documents/trunk_branch/SvtPython/dftm/pythonForGuiServer.py", line 197, in wrapped
+TypeError: getPossibleValuesCsvForAttr() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "/home/dave/Documents/trunk_branch/SvtPython/dftm/pythonForGuiServer.py", line 245, in handleJson
+  File "/home/dave/Documents/trunk_branch/SvtPython/dftm/pythonForGuiServer.py", line 197, in wrapped
+TypeError: getPossibleValuesCsvForAttr() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "/home/dave/Documents/trunk_branch/SvtPython/dftm/pythonForGuiServer.py", line 245, in handleJson
+  File "/home/dave/Documents/trunk_branch/SvtPython/dftm/pythonForGuiServer.py", line 197, in wrapped
+TypeError: getPossibleValuesCsvForAttr() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "/home/dave/Documents/trunk_branch/SvtPython/dftm/pythonForGuiServer.py", line 245, in handleJson
+  File "/home/dave/Documents/trunk_branch/SvtPython/dftm/pythonForGuiServer.py", line 197, in wrapped
+TypeError: getPossibleValuesCsvForAttr() takes 2 positional arguments but 3 were given
+*** Test saved: C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Analyzer ***

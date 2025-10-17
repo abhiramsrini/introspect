@@ -1,0 +1,16 @@
+Pinetree (v 23.3.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxVal_Generator'
+2023-09-15_0851_55
+--------------------------------------------------------------------------------
+Starting MipiDphyGenerator setup
+Starting clock config setup
+WARNING: SvtCoordRequest_Register: recv_string timed out (waited 2000 ms)
+ERROR: Failed to register as 'Generator'
+  File "<string>", line 3, in startCoordinator
+    status = coordinator1.waitForClientState("Analyzer", "running", 20)
+********************************************************************************
+Test run aborted due to error
+Writing partial IESP-level log to 'C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Generator\Logs\iespLogBuffer.txt'
+Test took 5.7 seconds
+--------------------------------------------------------------------------------

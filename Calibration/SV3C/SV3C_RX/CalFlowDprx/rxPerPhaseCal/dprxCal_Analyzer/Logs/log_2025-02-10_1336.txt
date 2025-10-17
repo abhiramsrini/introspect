@@ -1,0 +1,23 @@
+Pinetree (v 25.1.rc0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxCal_Analyzer'
+2025-02-10_1336_32
+--------------------------------------------------------------------------------
+Starting clock config setup
+Starting clock config setup
+TX: SV3C_4L6G_MIPI_DPHY_GENERATOR
+Serial Number: CDPRX18020004
+Firmware Id: FWSV3CDPRX04B032
+Firmware revision: FW000000
+********************************************************************************
+Exception occurred during Test run:
+Traceback (most recent call last):
+  File "<string>", line 24, in <module>
+    printMsg("Hardware revision: %s" % iesp.getHardwareRevs(), 'yellow', None, True)
+AttributeError: 'SV3C_4L3G_MIPI_DPHY_ANALYZER2' object has no attribute 'getHardwareRevs'
+Test took 10.9 seconds
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV3C_4L3G_MIPI_DPHY_ANALYZER2 initialized

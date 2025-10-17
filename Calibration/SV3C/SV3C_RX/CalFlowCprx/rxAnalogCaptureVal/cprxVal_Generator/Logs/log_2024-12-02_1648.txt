@@ -1,0 +1,29 @@
+Pinetree (v 25.1.b4)
+--------------------------------------------------------------------------------
+*** Starting Test 'cprxVal_Generator'
+2024-12-02_1648_21
+--------------------------------------------------------------------------------
+Starting MipiCphyGenerator setup
+Starting clock config setup
+Starting MipiCphyGenerator setup
+Starting clock config setup
+Starting MipiCphyGenerator setup
+Starting clock config setup
+Starting MipiCphyGenerator setup
+Starting clock config setup
+********************************************************************************
+Exception occurred during Test run:
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+    (state,time) = coordinator1.getState("Analyzer")
+TypeError: cannot unpack non-iterable NoneType object
+Test took 2.3 minutes
+--------------------------------------------------------------------------------
+WARNING: checkConnection failed due to exception:
+IO_ERROR
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV3C_4L3G_MIPI_CPHY_GENERATOR initialized

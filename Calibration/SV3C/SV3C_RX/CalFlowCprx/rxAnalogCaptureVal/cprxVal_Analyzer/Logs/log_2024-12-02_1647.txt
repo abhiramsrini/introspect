@@ -1,0 +1,8 @@
+Pinetree (v 25.1.b4)
+WARNING: No available FTDI devices matching the serial number pattern ((FTDI:INCPRX220302)A$) so will use first available that ends with 'A'
+Connecting to serialNum 'FTDI:INRX19060009A'
+Connected to subPart 'SV3C_4L3G_MIPI_CPHY_ANALYZER2_A'
+Connecting to serialNum 'FTDI:INRX19060009B'
+Initializing IESP hardware/firmware
+Firmware: FWSV3CCPRX04B027_FW00
+Doing post-connection initialization

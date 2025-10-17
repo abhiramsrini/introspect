@@ -1,0 +1,184 @@
+Pinetree (v 25.1.b4)
+--------------------------------------------------------------------------------
+*** Starting Test 'cprxVal_Analyzer'
+2024-12-02_1648_23
+--------------------------------------------------------------------------------
+Starting clock config setup
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+USB3: Transferring data over USB3 connection
+doing Analog Capture analysis
+WARNING: Bad Value on Lane 1 wire wireAB...
+354.4796818057094
+150.0
+WARNING: Bad Value on Lane 1 wire wireAB....
+-279.31357630221777
+150.0
+WARNING: Bad Value on Lane 1 wire wireBC...
+298.813605995655
+150.0
+WARNING: Bad Value on Lane 1 wire wireBC....
+-294.40767323044116
+150.0
+WARNING: Bad Value on Lane 1 wire wireCA...
+315.77481768899054
+150.0
+WARNING: Bad Value on Lane 1 wire wireCA....
+-298.4890401025902
+150.0
+WARNING: Bad Value on Lane 2 wire wireAB...
+307.1365008356734
+150.0
+WARNING: Bad Value on Lane 2 wire wireAB....
+-308.41875663890755
+150.0
+WARNING: Bad Value on Lane 2 wire wireBC...
+315.8464581322463
+150.0
+WARNING: Bad Value on Lane 2 wire wireBC....
+-321.6619490466408
+150.0
+WARNING: Bad Value on Lane 2 wire wireCA...
+331.5254189861236
+150.0
+WARNING: Bad Value on Lane 2 wire wireCA....
+-305.5177930241503
+150.0
+WARNING: Bad Value on Lane 3 wire wireAB...
+309.7806538198655
+150.0
+WARNING: Bad Value on Lane 3 wire wireAB....
+-306.67901145472763
+150.0
+WARNING: Bad Value on Lane 3 wire wireBC...
+268.46936452137646
+150.0
+WARNING: Bad Value on Lane 3 wire wireBC....
+-367.6474748905397
+150.0
+WARNING: Bad Value on Lane 3 wire wireCA...
+355.9430349386509
+150.0
+WARNING: Bad Value on Lane 3 wire wireCA....
+-265.44433913041155
+150.0
+WARNING: Bad Value on Lane 4 wire wireAB...
+306.03949913830894
+150.0
+WARNING: Bad Value on Lane 4 wire wireAB....
+-314.2543436367389
+150.0
+WARNING: Bad Value on Lane 4 wire wireBC...
+300.65878709736
+150.0
+WARNING: Bad Value on Lane 4 wire wireBC....
+-296.62302285471327
+150.0
+WARNING: Bad Value on Lane 4 wire wireCA...
+274.6507558388206
+150.0
+WARNING: Bad Value on Lane 4 wire wireCA....
+-301.28897644171855
+150.0
+Starting Analog Capture
+Starting MipiCphyLaneList setup
+doing Analog Capture analysis
+WARNING: Bad Value on Lane 1 wire wireAB...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 1 wire wireAB....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 1 wire wireBC...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 1 wire wireBC....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 1 wire wireCA...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 1 wire wireCA....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 2 wire wireAB...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 2 wire wireAB....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 2 wire wireBC...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 2 wire wireBC....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 2 wire wireCA...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 2 wire wireCA....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 3 wire wireAB...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 3 wire wireAB....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 3 wire wireBC...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 3 wire wireBC....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 3 wire wireCA...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 3 wire wireCA....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 4 wire wireAB...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 4 wire wireAB....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 4 wire wireBC...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 4 wire wireBC....
+-400.00000460854966
+300.0
+WARNING: Bad Value on Lane 4 wire wireCA...
+400.00000460854966
+300.0
+WARNING: Bad Value on Lane 4 wire wireCA....
+-400.00000460854966
+300.0
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+C:\Introspect\IntrospectESP_25.1.b4\SvtPython\dftm\svtTest.py:2411: RankWarning: Polyfit may be poorly conditioned
+WARNING: popupDialog: using deprecated kwarg 'htmlUrl' to pass an image file. Please use the 'imagePath' kwarg instead.
+WARNING: popupDialog: using deprecated kwarg 'imgSize' to pass image dimensions. Please use the 'imageWidth' and 'imageHeight' kwarg instead.
+ERROR: popupDialog: imagePath does not exists: /C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowCprx\rxAnalogCaptureVal\cprxVal_Analyzer\Params\Fail.png
+********************************************************************************
+Test run aborted due to error
+Test took 2.2 minutes
+--------------------------------------------------------------------------------
+WARNING: checkConnection failed due to exception:
+IO_ERROR
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV3C_4L3G_MIPI_CPHY_ANALYZER2 initialized

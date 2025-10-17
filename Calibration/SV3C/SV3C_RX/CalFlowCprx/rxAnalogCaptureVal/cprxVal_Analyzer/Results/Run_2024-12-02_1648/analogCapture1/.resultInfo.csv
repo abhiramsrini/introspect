@@ -1,0 +1,7 @@
+componentName, analogCapture1
+resultType, CphyAnalogCapture
+resultVersion, 0
+channels, 1 2 3 4
+subChannels, wireAB wireBC wireCA
+componentClass, SvtMipiCphyAnalogCapture
+iespClass, SV3C_4L3G_MIPI_CPHY_ANALYZER2

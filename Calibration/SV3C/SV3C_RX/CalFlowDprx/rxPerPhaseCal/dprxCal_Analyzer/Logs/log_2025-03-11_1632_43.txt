@@ -1,0 +1,83 @@
+Pinetree (v 25.1.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxCal_Analyzer'
+2025-03-11_1632_43
+--------------------------------------------------------------------------------
+Starting clock config setup
+Starting clock config setup
+TX: SV3C_4L6G_MIPI_DPHY_GENERATOR
+75.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+USB3: Transferring data over USB3 connection
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -212.41948972315552
+HIGH 228.59188537432252
+100.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -272.0961331403247
+HIGH 286.66538768196637
+150.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -374.63512246663964
+HIGH 383.4782286788739
+200.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -445.7956741896198
+HIGH 456.93422516245283
+250.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -494.91752359528357
+HIGH 504.5975996765847
+****************************************
+****************************************
+****************************************
+Please rename result directory to 1234.
+****************************************
+****************************************
+****************************************
+WARNING: popupDialog: using deprecated kwarg 'htmlUrl' to pass an image file. Please use the 'imagePath' kwarg instead.
+WARNING: popupDialog: using deprecated kwarg 'imgSize' to pass image dimensions. Please use the 'imageWidth' and 'imageHeight' kwarg instead.
+ERROR: popupDialog: imagePath does not exists: /C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseCal\dprxCal_Analyzer\Params\Pass.png
+********************************************************************************
+Test run aborted due to error
+Test took 13.6 minutes
+--------------------------------------------------------------------------------

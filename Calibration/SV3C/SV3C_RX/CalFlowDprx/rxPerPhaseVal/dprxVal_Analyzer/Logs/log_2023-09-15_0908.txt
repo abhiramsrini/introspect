@@ -1,0 +1,125 @@
+Pinetree (v 23.3.0)
+Connecting to serialNum 'FTDI:INCPRX230422A'
+Connected to subPart 'SV3C_4L3G_MIPI_DPHY_ANALYZER2_A'
+Connecting to serialNum 'FTDI:INCPRX230422B'
+Initializing IESP hardware/firmware
+formFactor: SV3C_4L3G_MIPI_DPHY_ANALYZER2
+firmware for SV3C_4L3G_MIPI_DPHY_ANALYZER2: FWSV3CDPRX04B029
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxVal_Analyzer'
+2023-09-15_0908_49
+--------------------------------------------------------------------------------
+Starting clock config setup
+Starting clock config setup
+TX: SV3C_4L6G_MIPI_DPHY_GENERATOR
+Serial Number: CDPRX23040022
+Firmware Id: FWSV3CDPRX04B029
+Firmware revision: FW000001
+Hardware revision: E
+100.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+USB3: Transferring data over USB3 connection
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -147.96173692160096
+HIGH 103.4279130669164
+WARNING: Bad Value on Lane 1...
+80.27221917554908
+100.0
+WARNING: Bad Value on Lane 1...
+-80.71181566348187
+100.0
+WARNING: Bad Value on Lane 5...
+-147.96173692160096
+100.0
+125.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -180.54245050486037
+HIGH 129.91093809093806
+WARNING: Bad Value on Lane 1...
+96.46254566417538
+125.0
+WARNING: Bad Value on Lane 1...
+-103.43283682131728
+125.0
+WARNING: Bad Value on Lane 5...
+-180.54245050486037
+125.0
+150.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -158.95526611974444
+HIGH 159.60966738138848
+WARNING: Bad Value on Lane 1...
+113.30020566559878
+150.0
+WARNING: Bad Value on Lane 1...
+-123.84006213226488
+150.0
+175.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -190.2790778292558
+HIGH 190.52700781584545
+WARNING: Bad Value on Lane 1...
+131.4810289556415
+175.0
+WARNING: Bad Value on Lane 1...
+-148.70118800536616
+175.0
+200.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -212.8481171188492
+HIGH 211.64790429574302
+WARNING: Bad Value on Lane 1...
+149.93361318096754
+200.0
+ERROR: Exception when executing function 'iso17025Report':
+KeyError: -200.0
+Traceback (most recent call last):
+  File "<string>", line 37, in iso17025Report
+    print("%0.1f," % averageVoltageDict[dataRate][lane][level], end=' ', file=outFile)
+********************************************************************************
+Test run aborted due to error
+Writing partial IESP-level log to 'C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Analyzer\Logs\iespLogBuffer.txt'
+Test took 8.2 minutes
+--------------------------------------------------------------------------------
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.

@@ -1,0 +1,169 @@
+Pinetree (v 23.3.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxVal_Generator'
+2023-09-20_0934_21
+--------------------------------------------------------------------------------
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+********************************************************************************
+Exception occurred during Test run:
+Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+    (state,time) = coordinator1.getState("Analyzer")
+TypeError: cannot unpack non-iterable NoneType object
+Test took 39.4 minutes
+--------------------------------------------------------------------------------
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.

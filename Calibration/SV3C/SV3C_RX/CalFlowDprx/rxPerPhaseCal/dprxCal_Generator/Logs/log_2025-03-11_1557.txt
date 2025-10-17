@@ -1,0 +1,23 @@
+Pinetree (v 25.1.0)
+Connecting to serialNum 'FTDI:INCPTX230207A'
+Connected to subPart 'SV3C_4L6G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INCPTX230207B'
+Initializing IESP hardware/firmware
+Firmware: FWSV3CDPTX02A038_FW01
+Doing post-connection initialization
+WARNING: checkConnection failed due to exception:
+IO_ERROR
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+Connecting to serialNum 'FTDI:INCPTX211005A'
+Connected to subPart 'SV3C_4L6G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INCPTX211005B'
+Initializing IESP hardware/firmware
+Firmware: FWSV3CDPTX02A038_FW01
+Doing post-connection initialization
+Connecting to serialNum 'FTDI:INCPTX230207A'
+Connected to subPart 'SV3C_4L6G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INCPTX230207B'
+Initializing IESP hardware/firmware
+Firmware: FWSV3CDPTX02A038_FW01
+Doing post-connection initialization

@@ -1,0 +1,114 @@
+# DateTime: 2024-12-02_1650_42
+# SVT version: 25.1.b4
+# Form factor: SV3C_4L3G_MIPI_CPHY_GENERATOR
+# subPart 'SV3C_4L3G_MIPI_CPHY_GENERATOR_A' info
+#     Connected to  INCPTX16080004A
+#     firmwareId:   FWSV3CCPTX02A031
+#     firmwareRev:  FW000003
+#     hardwareId:   HW000004
+#     hardwareRev:  E
+#     moduleSerial: CPTX16080004
+# subPart 'SV3C_4L3G_MIPI_CPHY_GENERATOR_B' info
+#     Not connected
+# Test: C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowCprx\rxAnalogCaptureVal\cprxVal_Generator
+
+   +0.078ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x08 dataStr=FFFCFFFCFFFCFFFCFFFCFFFCFFFCFFFCFFFCFFFCFFFCFFFCFFFCFFFCFFFCFFFC delay1=None delay2=20 delay3=20
+  +46.028ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.037ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.943ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.254ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0320 target=0x03 dataStr=0001000700010008000100020000ffff
+   +5.952ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.197ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0504 target=0x40 value=0x00030003
+   +3.524ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.234ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x09 value=0x00000008
+   +3.746ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.032ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.995ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.110ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x09 dataStr=FFFFFFFFFFF40000 delay1=None delay2=20 delay3=20
+  +45.990ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.044ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.874ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.301ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0320 target=0x04 dataStr=00010009000100020000ffff
+   +5.672ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.136ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0504 target=0x02 value=0x00030004
+   +3.945ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.355ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x0A value=0x00000008
+   +3.585ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.021ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +4.029ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.076ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x0A dataStr=FFFFFFFFFFF40000 delay1=None delay2=20 delay3=20
+  +45.827ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.041ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +4.043ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.255ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0320 target=0x05 dataStr=0001000a000100020000ffff
+   +5.693ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.127ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0504 target=0x08 value=0x00030005
+   +3.885ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.240ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x0B value=0x00000008
+   +3.745ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.042ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.951ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.082ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x0B dataStr=FFFFFFFFFFF40000 delay1=None delay2=20 delay3=20
+  +46.014ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.059ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.843ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.260ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0320 target=0x06 dataStr=0001000b000100020000ffff
+   +5.795ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.150ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0504 target=0x20 value=0x00030006
+   +3.824ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.200ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x0C value=0x00000008
+   +3.794ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.024ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +4.002ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.145ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x0C dataStr=FFFFFFFFFFF40000 delay1=None delay2=20 delay3=20
+  +45.858ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.036ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.996ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.290ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0320 target=0x07 dataStr=0001000c000100020000ffff
+   +5.676ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.135ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0504 target=0x80 value=0x00030007
+   +3.822ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.259ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x0D value=0x00000028
+   +3.781ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.028ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +4.160ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.110ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x0D dataStr=0F550000000000000F550000000140000F550000000000000F55000000000000FFAA2497FFFF0000 delay1=None delay2=20 delay3=20
+  +45.676ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.035ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +4.030ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.344ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0314 target=0x0E value=0x00000008
+   +3.520ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.042ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.977ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.090ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0310 target=0x0E dataStr=F0AA249000060000 delay1=None delay2=20 delay3=20
+  +45.978ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.038ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.940ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.257ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeDataBlock: addr=0x0320 target=0x08 dataStr=0001000d0001000e000100020000ffff
+   +5.762ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.114ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0506 target=None value=0x00030008
+   +3.924ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.189ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x06B0 target=None value=0x00000070
+   +3.762ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.213ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x06B2 target=None value=0x00000004
+   +3.730ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.234ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x06B4 target=None value=0x00000070
+   +3.856ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.241ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.743ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.129ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0304 target=0x55 value=0x000000FF delay1=None delay2=2
+   +5.832ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.105ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.982ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.143ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0304 target=0xAA value=0x000000FF delay1=None delay2=2
+   +5.808ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.122ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.898ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.135ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0308 target=None value=0x000000FF
+   +3.874ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.114ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +3.913ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.064ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: writeRegister: addr=0x0C40 target=0x00 value=0x00000000
+   +3.926ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success
+   +0.104ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: waitForCommandProcessor (maxWaitTime = 10000)
+   +7.868ms: SV3C_4L3G_MIPI_CPHY_GENERATOR_A: result: success

@@ -1,0 +1,47 @@
+Pinetree (v 25.1.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxCal_Generator'
+2025-03-11_1632_42
+--------------------------------------------------------------------------------
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+Starting MipiDphyGenerator setup
+Starting clock config setup
+********************************************************************************
+Exception occurred during Test run:
+Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+    (state,time) = coordinator1.getState("Analyzer")
+TypeError: cannot unpack non-iterable NoneType object
+Test took 13.7 minutes
+--------------------------------------------------------------------------------

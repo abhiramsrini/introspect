@@ -1,0 +1,7 @@
+Pinetree (v 25.1.rc0)
+Connecting to serialNum 'FTDI:INRX18020004A'
+Connected to subPart 'SV3C_4L3G_MIPI_DPHY_ANALYZER2_A'
+Connecting to serialNum 'FTDI:INRX18020004B'
+Initializing IESP hardware/firmware
+Firmware: FWSV3CDPRX04B032_FW00
+Doing post-connection initialization

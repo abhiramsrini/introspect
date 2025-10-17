@@ -1,0 +1,18 @@
+Pinetree (v 25.1.rc0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxCal_Generator'
+2025-02-10_1336_44
+--------------------------------------------------------------------------------
+Starting MipiDphyGenerator setup
+Starting clock config setup
+ERROR: waitForClientState: timed out (waited 20 s)
+  File "<string>", line 3, in startCoordinator
+    status = coordinator1.waitForClientState("Analyzer", "running", 20)
+********************************************************************************
+Test run aborted due to error
+Test took 23.7 seconds
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV3C_4L6G_MIPI_DPHY_GENERATOR initialized

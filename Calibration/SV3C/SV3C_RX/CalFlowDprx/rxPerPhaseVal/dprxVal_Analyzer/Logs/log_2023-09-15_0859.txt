@@ -1,0 +1,140 @@
+Pinetree (v 23.3.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxVal_Analyzer'
+2023-09-15_0859_23
+--------------------------------------------------------------------------------
+Starting clock config setup
+Starting clock config setup
+TX: SV3C_4L6G_MIPI_DPHY_GENERATOR
+Serial Number: CDPRX23040022
+Firmware Id: FWSV3CDPRX04B029
+Firmware revision: FW000001
+Hardware revision: E
+100.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -156.82625825622605
+HIGH 105.53283501740242
+WARNING: Bad Value on Lane 1...
+81.31964202440507
+100.0
+WARNING: Bad Value on Lane 1...
+-82.63242433748873
+100.0
+WARNING: Bad Value on Lane 2...
+80.42869976543487
+100.0
+WARNING: Bad Value on Lane 2...
+-137.6598934009966
+100.0
+WARNING: Bad Value on Lane 5...
+-156.82625825622605
+100.0
+125.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -187.42046414985208
+HIGH 133.94944980323942
+WARNING: Bad Value on Lane 1...
+98.64483839956715
+125.0
+WARNING: Bad Value on Lane 1...
+-105.43796428337116
+125.0
+WARNING: Bad Value on Lane 2...
+-168.62247058144678
+125.0
+WARNING: Bad Value on Lane 5...
+-187.42046414985208
+125.0
+150.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -164.65230410437232
+HIGH 165.2753708510769
+WARNING: Bad Value on Lane 1...
+115.04893538882747
+150.0
+WARNING: Bad Value on Lane 1...
+-126.3595007725566
+150.0
+WARNING: Bad Value on Lane 2...
+-194.70883312034414
+150.0
+175.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -194.24330337789715
+HIGH 194.932480934256
+WARNING: Bad Value on Lane 1...
+133.7875165545394
+175.0
+WARNING: Bad Value on Lane 2...
+-226.6548343510041
+175.0
+200.0
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+Starting Analog Capture
+Starting MipiDphyLaneList setup
+doing Analog Capture analysis
+LOW -214.65587687641485
+HIGH 213.39765256355957
+WARNING: Bad Value on Lane 1...
+152.45740730527004
+200.0
+WARNING: Bad Value on Lane 2...
+169.96871585554635
+200.0
+WARNING: Bad Value on Lane 2...
+-264.9310160957328
+200.0
+****************************************
+****************************************
+****************************************
+Please rename result directory to 1234.
+****************************************
+****************************************
+****************************************
+WARNING: popupDialog: using deprecated kwarg 'htmlUrl' to pass an image file. Please use the 'imagePath' kwarg instead.
+WARNING: popupDialog: using deprecated kwarg 'imgSize' to pass image dimensions. Please use the 'imageWidth' and 'imageHeight' kwarg instead.
+ERROR: popupDialog: imagePath does not exists: /C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Analyzer\Params\Fail.png
+********************************************************************************
+Test run aborted due to error
+Writing partial IESP-level log to 'C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Analyzer\Logs\iespLogBuffer.txt'
+Test took 8.1 minutes
+--------------------------------------------------------------------------------
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.

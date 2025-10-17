@@ -1,0 +1,30 @@
+Pinetree (v 23.3.0)
+WARNING: No available FTDI devices matching the serial number pattern ((^FTDI:IN(DP|CP|CDP)?RX.*)A$) so will use first available that ends with 'A'
+WARNING: No available FTDI devices matching the serial number pattern ((^FTDI:IN(DP|CP|CDP)?RX.*)A$) so will use first available
+Connecting to serialNum 'FTDI:INCPRX230422B'
+Connected to subPart 'SV3C_4L3G_MIPI_DPHY_ANALYZER2_A'
+_DEFAULT_:SV3C_4L3G_MIPI_DPHY_ANALYZER2_B: No FTDI device has serial number matching (INCPRX230422)B$
+Available serialNums: ['FTDI:INCPTX17120013B']
+Will try again in 2 seconds
+_DEFAULT_:SV3C_4L3G_MIPI_DPHY_ANALYZER2_B: No FTDI device has serial number matching (INCPRX230422)B$
+Available serialNums: ['FTDI:INCPTX17120013B']
+Failed to connect to subPart 'SV3C_4L3G_MIPI_DPHY_ANALYZER2_B'
+Disconnected IESP.
+WARNING: No available FTDI devices matching the serial number pattern ((^FTDI:IN(DP|CP|CDP)?RX.*)A$) so will use first available that ends with 'A'
+WARNING: No available FTDI devices matching the serial number pattern ((^FTDI:IN(DP|CP|CDP)?RX.*)A$) so will use first available
+Connecting to serialNum 'FTDI:INCPRX230422B'
+Connected to subPart 'SV3C_4L3G_MIPI_DPHY_ANALYZER2_A'
+_DEFAULT_:SV3C_4L3G_MIPI_DPHY_ANALYZER2_B: No FTDI device has serial number matching (INCPRX230422)B$
+Available serialNums: ['FTDI:INCPTX17120013B']
+Will try again in 2 seconds
+_DEFAULT_:SV3C_4L3G_MIPI_DPHY_ANALYZER2_B: No FTDI device has serial number matching (INCPRX230422)B$
+Available serialNums: ['FTDI:INCPTX17120013B']
+Failed to connect to subPart 'SV3C_4L3G_MIPI_DPHY_ANALYZER2_B'
+Disconnected IESP.
+Connecting to serialNum 'FTDI:INCPRX230422A'
+Connected to subPart 'SV3C_4L3G_MIPI_DPHY_ANALYZER2_A'
+Connecting to serialNum 'FTDI:INCPRX230422B'
+Initializing IESP hardware/firmware
+formFactor: SV3C_4L3G_MIPI_DPHY_ANALYZER2
+firmware for SV3C_4L3G_MIPI_DPHY_ANALYZER2: FWSV3CDPRX04B029
+Doing post-connection initialization

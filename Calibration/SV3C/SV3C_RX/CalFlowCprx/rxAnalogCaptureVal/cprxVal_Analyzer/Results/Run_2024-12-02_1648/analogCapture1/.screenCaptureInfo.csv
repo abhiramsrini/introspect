@@ -1,0 +1,5 @@
+resultType, CphyAnalogCapture
+namePrefix, previewAnalogCapture
+channels, 1,2,3,4
+allChannelsTogether, False
+subChannels, wireAB,wireBC,wireCA

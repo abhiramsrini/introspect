@@ -1,0 +1,12 @@
+Pinetree (v 23.3.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'dprxVal_Generator'
+2023-09-20_0908_17
+--------------------------------------------------------------------------------
+Starting MipiDphyGenerator setup
+Starting clock config setup
+********************************************************************************
+Test run cancelled by user
+Writing partial IESP-level log to 'C:\SVN\system\Calibration\SV3\SV3_CPRXDPRX\CalFlowDprx\rxPerPhaseVal\dprxVal_Generator\Logs\iespLogBuffer.txt'
+Test took 1.6 seconds
+--------------------------------------------------------------------------------
