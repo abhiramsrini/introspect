@@ -1,0 +1,3 @@
+Introspect ESP (v 21.4.0)
+WARNING: copying values from 'mipiClockConfig1' to a new instance of SvtRefClocksConfig
+WARNING: The component class 'SvtResultFolderCreator' ('resultFolderCreator1') does not have a property 'channelProvider'

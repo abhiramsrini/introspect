@@ -1,0 +1,8 @@
+Introspect ESP (v 21.4.0)
+***************
+Test was saved with software version 23.1.0 which is more recent than the current version (21.4.0)
+Exception occurred creating components from 'C:\SVN\system\Calibration\SV3\SV3_CPTXDPTX\CalFlow_v1\AlignmentCal\AlignmentCalDptx\dptxAlignmentCalUsingKeysightScope_Validation\Params\testProcedure.py': NameError: name '_create' is not defined
+Problem with line 12 (autoscaleScope = _create('autoscaleScope', 'SvtFunction', iespName='None'))
+Components after this point in the file will be ignored.
+***************
+The 'Save' menu item has been disabled to avoid inadvertent overwriting of the parts of the Test that failed to load

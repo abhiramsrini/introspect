@@ -1,0 +1,43 @@
+Introspect ESP (v 23.1.0)
+Connecting to serialNum 'FTDI:INCPTX17120004A'
+Connected to subPart 'SV3C_4L6G_MIPI_DPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INCPTX17120004B'
+Initializing IESP hardware/firmware
+formFactor: SV3C_4L6G_MIPI_DPHY_GENERATOR
+firmware for SV3C_4L6G_MIPI_DPHY_GENERATOR: FWSV3CDPTX02A037
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'dptxAlignmentCalUsingKeysightScope'
+2023-03-13_1358_19
+--------------------------------------------------------------------------------
+C:\Introspect\IntrospectESP_23.1.0\PythonEnv\lib\site-packages\visa.py:23: FutureWarning: The visa module provided by PyVISA is being deprecated. You can replace `import visa` by `import pyvisa as visa` to achieve the same effect.
+The reason for the deprecation is the possible conflict with the visa package provided by the https://github.com/visa-sdk/visa-python which can result in hard to debug situations.
+  FutureWarning,
+ERROR: Exception when executing function 'initScope':
+ValueError: Could not locate a VISA implementation. Install either the IVI binary or pyvisa-py.
+Traceback (most recent call last):
+  File "<string>", line 3, in initScope
+    rm = visa.ResourceManager()
+  File "C:\Introspect\IntrospectESP_23.1.0\PythonEnv\lib\site-packages\pyvisa\highlevel.py", line 3014, in __new__
+    visa_library = open_visa_library(visa_library)
+  File "C:\Introspect\IntrospectESP_23.1.0\PythonEnv\lib\site-packages\pyvisa\highlevel.py", line 2923, in open_visa_library
+    wrapper = _get_default_wrapper()
+  File "C:\Introspect\IntrospectESP_23.1.0\PythonEnv\lib\site-packages\pyvisa\highlevel.py", line 2883, in _get_default_wrapper
+    "Could not locate a VISA implementation. Install either the IVI binary or pyvisa-py."
+********************************************************************************
+Test run aborted due to errors
+theLastErrorMsg: ERROR: Exception when executing function 'initScope':
+ValueError: Could not locate a VISA implementation. Install either the IVI binary or pyvisa-py.
+Traceback (most recent call last):
+  File "<string>", line 3, in initScope
+    rm = visa.ResourceManager()
+  File "C:\Introspect\IntrospectESP_23.1.0\PythonEnv\lib\site-packages\pyvisa\highlevel.py", line 3014, in __new__
+    visa_library = open_visa_library(visa_library)
+  File "C:\Introspect\IntrospectESP_23.1.0\PythonEnv\lib\site-packages\pyvisa\highlevel.py", line 2923, in open_visa_library
+    wrapper = _get_default_wrapper()
+  File "C:\Introspect\IntrospectESP_23.1.0\PythonEnv\lib\site-packages\pyvisa\highlevel.py", line 2883, in _get_default_wrapper
+    "Could not locate a VISA implementation. Install either the IVI binary or pyvisa-py."
+Writing partial IESP-level log to 'C:\SVN\system\Calibration\SV3\SV3_CPTXDPTX\CalFlow_v1\AlignmentCal\AlignmentCalDptx\dptxAlignmentCalUsingKeysightScope\Logs\iespLogBuffer.txt'
+Test took 1.0 seconds
+--------------------------------------------------------------------------------
+*** Test saved: C:\SVN\system\Calibration\SV3\SV3_CPTXDPTX\CalFlow_v1\AlignmentCal\AlignmentCalDptx\dptxAlignmentCalUsingKeysightScope ***
