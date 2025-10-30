@@ -1,0 +1,6 @@
+componentName, digitalCapture1
+resultType, DigitalCapture
+resultVersion, 0
+channels, 9 10 11 12 13 14 15 16
+componentClass, SvtDigitalCapture
+iespClass, SV7C_16C17G

@@ -1,0 +1,50 @@
+Pinetree (v 24.4.b0)
+--------------------------------------------------------------------------------
+*** Starting Test 'RxAutoAlignVal'
+2024-06-27_1133_50
+--------------------------------------------------------------------------------
+Starting clock config setup
+Starting TX ChannelList setup
+Starting RX ChannelList setup
+successful strobe sync on channels 9-16
+Starting reSyncAtCenterPhase
+WARNING: Capping number of data bytes at 8192
+WARNING: Capping number of data bytes at 8192
+WARNING: Capping number of data bytes at 8192
+WARNING: Capping number of data bytes at 8192
+WARNING: Capping number of data bytes at 8192
+WARNING: Capping number of data bytes at 8192
+WARNING: Capping number of data bytes at 8192
+WARNING: Capping number of data bytes at 8192
+WARNING: Significant inconsistency: numPoints: 2048 numRangedPhases: 4099
+WARNING: Significant inconsistency: numPoints: 2048 numRangedPhases: 4099
+WARNING: Significant inconsistency: numPoints: 2048 numRangedPhases: 4099
+WARNING: Significant inconsistency: numPoints: 2048 numRangedPhases: 4099
+WARNING: Significant inconsistency: numPoints: 2048 numRangedPhases: 4099
+WARNING: Significant inconsistency: numPoints: 2048 numRangedPhases: 4099
+WARNING: Significant inconsistency: numPoints: 2048 numRangedPhases: 4099
+WARNING: Significant inconsistency: numPoints: 2048 numRangedPhases: 4099
+WARNING: reSyncAtCenterPhase: no center available for channel 9
+WARNING: reSyncAtCenterPhase: no center available for channel 10
+WARNING: reSyncAtCenterPhase: no center available for channel 11
+WARNING: reSyncAtCenterPhase: no center available for channel 12
+WARNING: reSyncAtCenterPhase: no center available for channel 13
+WARNING: reSyncAtCenterPhase: no center available for channel 14
+WARNING: reSyncAtCenterPhase: no center available for channel 15
+WARNING: reSyncAtCenterPhase: no center available for channel 16
+diagnoseSyncFailure: Doing DigitalCapture on channels 9-16
+detected bits on channel 9: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101...1010101
+detected bits on channel 10: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101...1010101
+detected bits on channel 11: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101...1010101
+detected bits on channel 12: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101...1010101
+detected bits on channel 13: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101...1010101
+detected bits on channel 14: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101...1010101
+detected bits on channel 15: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101...1010101
+detected bits on channel 16: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101...1010101
+ERROR: patternSync1: PatternSync failed on all channels
+********************************************************************************
+Test run aborted due to error
+Test took 12.2 seconds
+--------------------------------------------------------------------------------
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.

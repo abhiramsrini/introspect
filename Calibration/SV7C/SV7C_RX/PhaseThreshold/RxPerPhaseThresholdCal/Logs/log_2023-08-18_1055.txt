@@ -1,0 +1,9 @@
+Pinetree (v 23.4.b9)
+formFactor: SV7C_16C17G
+firmware for SV7C_16C17G: FWIESPSV7C02B002
+Connecting to serialNum 'FTDI:INSV7C23030001A'
+Connected to subPart 'SV7C_16C17G_A'
+Connecting to serialNum 'FTDI:INSV7C23030001B'
+Initializing IESP hardware/firmware
+Doing post-connection initialization
+Disconnected IESP.

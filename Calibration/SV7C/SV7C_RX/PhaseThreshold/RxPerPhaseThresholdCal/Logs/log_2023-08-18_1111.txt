@@ -1,0 +1,37 @@
+Pinetree (v 23.3.0)
+--------------------------------------------------------------------------------
+*** Starting Test 'RxPerPhaseThresholdCal'
+2023-08-18_1111_16
+--------------------------------------------------------------------------------
+----- Measuring at Data Rate 17600 Mbps -----
+Starting clock config setup
+New clock configuration
+Calculating clocking parameters... (will take several seconds)
+TARGET LEVEL is 400 mV
+EYESCAN START is -630 mV
+EYESCAN END is 630 mV
+Starting TX ChannelList setup
+Starting TX ChannelList update
+Starting RX ChannelList setup
+Starting VScan
+vScan1: Setting up for VScan
+Starting RX ChannelList setup
+successful strobe sync on channels 1-8
+patternSync1: PatternSync succeeded on channels 1-8
+patternSync1: PatternSync failed on channels 9-16
+WARNING: vScan1: (channel 9) failed to find bathtub for eye location, so will use 0.0
+WARNING: vScan1: (channel 10) failed to find bathtub for eye location, so will use 0.0
+WARNING: vScan1: (channel 11) failed to find bathtub for eye location, so will use 0.0
+WARNING: vScan1: (channel 12) failed to find bathtub for eye location, so will use 0.0
+WARNING: vScan1: (channel 13) failed to find bathtub for eye location, so will use 0.0
+WARNING: vScan1: (channel 14) failed to find bathtub for eye location, so will use 0.0
+WARNING: vScan1: (channel 15) failed to find bathtub for eye location, so will use 0.0
+WARNING: vScan1: (channel 16) failed to find bathtub for eye location, so will use 0.0
+ERROR: vScan1: no errCounts result for channel 9 subChannel None
+  File "<string>", line 33, in getMeasurementsAtAmplitude
+    errCountsCByVoltage[channel] = result.getErrCounts(channel)
+********************************************************************************
+Test run aborted due to error
+Writing partial IESP-level log to 'C:\SVN\system\Calibration\SV7\SV7\RxPerPhaseThresholdCal\Logs\iespLogBuffer.txt'
+Test took 44.3 seconds
+--------------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+Pinetree (v 23.3.0)
+Connecting to serialNum 'FTDI:INSV7C23030001A'
+Connected to subPart 'SV7C_16C28G_A'
+Connecting to serialNum 'FTDI:INSV7C23030001B'
+Initializing IESP hardware/firmware
+formFactor: SV7C_16C28G
+firmware for SV7C_16C28G: FWIESPSV7C02B002
+WARNING: The current firmware personality on SV7C_16C28G_A is 'FWIESPSV7C02B002' but this is not one of the personalities known to be compatible with Pinetree (v 23.3.0) for form factor 'SV7C_16C28G'
+Some operations may not work correctly.
+The following personalities are supported:
+FWIESPSV7C03B001
+Doing post-connection initialization
+Starting firmware update...
+Disconnecting from hardware (if not already disconnected)
+Disconnected IESP.
+Connecting to serialNum 'FTDI:INSV7C23030001A'
+Connected to subPart 'SV7C_16C28G_A'
+Connecting to serialNum 'FTDI:INSV7C23030001B'
+Initializing IESP hardware/firmware
+formFactor: SV7C_16C28G
+firmware for SV7C_16C28G: FWIESPSV7C03B001
+Doing post-connection initialization
