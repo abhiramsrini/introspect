@@ -45,43 +45,18 @@ calOptions.commonModeValues = [0.0, 500.0, 1000.0, 1500.0, 2000.0, 2500.0]
 calOptions.amplitudeValues = [1100.0, 750.0, 500.0, 250.0, 100.0]
 calOptions.callCustomInitMethod()
 initScope.args = ''
-initScope.code = r'''import pyvisa as visa
-#connect to scope
-import win32com.client
-osci=win32com.client.Dispatch("LeCroy.ActiveDSOCtrl.1")
-osci.MakeConnection("IP:169.254.197.102")
-osci.WriteString("buzz beep", 1)
+initScope.code = r'''scope1.address = calOptions.scopeIPAddress
+scope1.connect()
+scope1.reset()
 
 # Set timebase to proper value
-#scope1.setTimeScale(5e-8)
-osci.writestring("VBS 'app.Acquisition.Horizontal.HorScale = 5e-8'", 1)
-
+scope1.setTimeScale(5e-8)
 
 # Make sure all skew are at 0. This is not reset by default
-
-osci.WriteString("VBS 'app.Acquisition.C1.Deskew = 0'", 1)
-osci.WriteString("VBS 'app.Acquisition.C2.Deskew = 0'", 1)
-osci.WriteString("VBS 'app.Acquisition.C3.Deskew = 0'", 1)
-osci.WriteString("VBS 'app.Acquisition.C4.Deskew = 0'", 1)
-
-osci.WriteString("VBS 'app.Acquisition.C1.View = 1'", 1)
-osci.WriteString("VBS 'app.Acquisition.C2.View = 1'", 1)
-osci.WriteString("VBS 'app.Acquisition.C3.View = 1'", 1)
-
-
-osci.WriteString("VBS 'app.Acquisition.C1.Coupling = 0'", 1)
-osci.WriteString("VBS 'app.Acquisition.C2.Coupling = 0'", 1)
-osci.WriteString("VBS 'app.Acquisition.C3.Coupling = 0'", 1)
-osci.WriteString("VBS? 'return=app.WaitUntilIdle(5)'", 1)
-osci.WriteString("*OPC?", 1)
-
-time.sleep(10)
-
-return osci
-#scope1.sendCommand(":CALibrate:SKEW CHANnel1,0")
-#scope1.sendCommand(":CALibrate:SKEW CHANnel2,0")
-#scope1.sendCommand(":CALibrate:SKEW CHANnel3,0")
-#scope1.sendCommand(":CALibrate:SKEW CHANnel4,0")
+scope1.sendCommand(":CALibrate:SKEW CHANnel1,0")
+scope1.sendCommand(":CALibrate:SKEW CHANnel2,0")
+scope1.sendCommand(":CALibrate:SKEW CHANnel3,0")
+scope1.sendCommand(":CALibrate:SKEW CHANnel4,0")
 '''
 initScope.wantAllVarsGlobal = False
 
