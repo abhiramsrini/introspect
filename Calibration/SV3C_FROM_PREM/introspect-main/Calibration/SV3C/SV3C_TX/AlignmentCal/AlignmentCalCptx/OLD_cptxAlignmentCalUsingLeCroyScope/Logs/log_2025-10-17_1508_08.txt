@@ -1,0 +1,37 @@
+Pinetree (v 25.3.0)
+Connecting to serialNum 'FTDI:INCPTX19030005A'
+Connected to subPart 'SV3C_4L3G_MIPI_CPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INCPTX19030005B'
+Initializing IESP hardware/firmware
+Firmware: FWSV3CCPTX02A032_FW01
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'OLD_cptxAlignmentCalUsingLeCroyScope'
+2025-10-17_1508_10
+--------------------------------------------------------------------------------
+Starting MipiCphyGenerator setup
+Starting clock config setup
+Measuring C-PHY Lane 1...
+Measuring at 80.000000 Mbps...
+Starting MipiCphyGenerator setup
+Starting clock config setup
+ERROR: Exception when executing function 'autoscaleScope':
+AttributeError: 'bool' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "<string>", line 36, in autoscaleScope
+    currentValue = float(avg_voltage_str.strip())
+********************************************************************************
+Test run aborted due to error
+Test took 14.4 seconds
+--------------------------------------------------------------------------------
+Win32 exception occurred releasing IUnknown at 0x000001E09B416440
+*** Test saved: C:\Users\tprem\OneDrive\Desktop\QUALCOMM_SV3C_171025\introspect-main (5)\introspect-main\Calibration\SV3C\SV3C_TX\AlignmentCal\AlignmentCalCptx\OLD_cptxAlignmentCalUsingLeCroyScope ***
+WARNING: checkConnection failed due to exception:
+IO_ERROR
+checkConnection: device not responding, so disconnecting
+Disconnected IESP.
+*** Test saved: C:\Users\tprem\OneDrive\Desktop\QUALCOMM_SV3C_171025\introspect-main (5)\introspect-main\Calibration\SV3C\SV3C_TX\AlignmentCal\AlignmentCalCptx\OLD_cptxAlignmentCalUsingLeCroyScope ***
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV3C_4L3G_MIPI_CPHY_GENERATOR initialized

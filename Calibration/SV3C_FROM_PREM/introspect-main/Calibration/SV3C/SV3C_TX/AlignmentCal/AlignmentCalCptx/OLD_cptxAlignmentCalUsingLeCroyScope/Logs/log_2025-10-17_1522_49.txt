@@ -1,0 +1,34 @@
+Pinetree (v 25.3.0)
+Connecting to serialNum 'FTDI:INCPTX19030005A'
+Connected to subPart 'SV3C_4L3G_MIPI_CPHY_GENERATOR_A'
+Connecting to serialNum 'FTDI:INCPTX19030005B'
+Initializing IESP hardware/firmware
+Firmware: FWSV3CCPTX02A032_FW01
+Doing post-connection initialization
+--------------------------------------------------------------------------------
+*** Starting Test 'OLD_cptxAlignmentCalUsingLeCroyScope'
+2025-10-17_1522_51
+--------------------------------------------------------------------------------
+Starting MipiCphyGenerator setup
+Starting clock config setup
+Measuring C-PHY Lane 1...
+Measuring at 80.000000 Mbps...
+Starting MipiCphyGenerator setup
+Starting clock config setup
+Performing coarse loop...
+channel string is C2
+ERROR: Exception when executing function 'measureDeltaTime':
+ValueError: could not convert string to float: 
+Traceback (most recent call last):
+  File "<string>", line 22, in measureDeltaTime
+    currentDeltaTime += float(varAmp)
+  File "<string>", line 27, in performScopeCal
+    currentDelayB = measureDeltaTime(2)
+********************************************************************************
+Test run aborted due to error
+Test took 27.5 seconds
+--------------------------------------------------------------------------------
+
+Viewer Std Out:
+--------------------------------------------
+Formfactor SV3C_4L3G_MIPI_CPHY_GENERATOR initialized
