@@ -25,22 +25,30 @@ txChannelList1 = _create('txChannelList1', 'SvtTxChannelList')
 
 autoscaleScope.args = ''
 autoscaleScope.code = r'''# Set to center by going to default
-
 import time
 
 print("Setting channels to autoscale")
-osci.WriteString("VBS 'app.Autoset.FindAllVerScale'", 1)
-osci.WriteString("VBS 'app.Autoset.DoAutosetup'", 1)
+#osci.WriteString("VBS 'app.Autoset.FindAllVerScale'", 1)
+#osci.WriteString("VBS 'app.Autoset.DoAutosetup'", 1)
+osci.WriteString("VBS 'app.Acquisition.C1.VerScale = 100e-03'", 1)
+osci.WriteString("VBS 'app.Acquisition.C2.VerScale = 100e-03'", 1)
+osci.WriteString("VBS 'app.Acquisition.C3.VerScale = 100e-03'", 1)
+osci.WriteString("VBS 'app.Acquisition.C4.VerScale = 100e-03'", 1)
+osci.WriteString("VBS 'app.Acquisition.C1.VerOffset = -190e-03'", 1)
+osci.WriteString("VBS 'app.Acquisition.C2.VerOffset = -190e-03'", 1)
+osci.WriteString("VBS 'app.Acquisition.C3.VerOffset = -190e-03'", 1)
+osci.WriteString("VBS 'app.Acquisition.C4.VerOffset = -190e-03'", 1)
+osci.WriteString("VBS 'app.Acquisition.Trigger.C1Level = 225e-03'", 1)
+
 osci.WriteString("VBS? 'return=app.WaitUntilIdle(5)'", 1)
 osci.WriteString("*OPC?", 1)
 
-
-# Clear display
+#Clear display
 print("Clearing display")
 osci.WriteString("VBS 'app.Measure.ClearSweeps'", 1)
 sleepMillis(100)
 
-# Set timebase to proper value
+#Set timebase to proper value
 print("Setting timebase to 100 ps")
 osci.writestring("VBS 'app.Acquisition.Horizontal.HorScale = 100e-012'", 1)
 iesp.setMeasurementTimeout(60000)
@@ -132,34 +140,28 @@ initScope.wantAllVarsGlobal = False
 
 measureDeltaTime.args = 'channel'
 measureDeltaTime.code = r'''# Assumes all measurements are relative to channel 1
-channelSource = "C%d" % channel
+import time
+channelString = "C%d" % channel
+print ("channel string is %s" % channelString)
+osci.WriteString("VBS 'app.Measure.P1.Source1 = 0'" , 1)
 
-# Update P1 sources for this channel pair
-osci.WriteString("VBS 'app.Measure.P1.Source1 = \"C1\"'", 1)
-osci.WriteString("VBS 'app.Measure.P1.Source2 = \"%s\"'" % channelSource, 1)
-
-# Clear previous statistics before accumulating fresh ones
-osci.WriteString("VBS 'app.Measure.ClearSweeps'", 1)
+commandString = "VBS 'app.Measure.P1.Source2 = \"%s\"'" % channelString
+osci.WriteString(commandString, 1)
 sleepMillis(calOptions.scopeAutoScaleDelay)
-
-max_meas_iterations = 15
+commandString = "VBS? 'return = app.Measure.P1.mean.Result.Value'"
+osci.WriteString(commandString, 1)
 currentDeltaTime = 0
-DeltaTime_std = 0
 
-for i in range(max_meas_iterations):
-    sweeps = float(osci.WriteString("VBS? 'return=app.Measure.P1.Out.Result.Sweeps'", 1))
-    std    = float(osci.WriteString("VBS? 'return=app.Measure.P1.Out.Result.Sdev'", 1))
+for i in range(calOptions.numAverages) :
 
-    if sweeps > calOptions.numAverages and std * 1e12 < calOptions.max_std_ps:
-        currentDeltaTime = float(osci.WriteString("VBS? 'return=app.Measure.P1.Out.Result.Mean'", 1))
-        DeltaTime_std = std
-        break
-    elif sweeps > calOptions.numAverages and std * 1e12 > calOptions.max_std_ps:
-        osci.WriteString("VBS 'app.Measure.ClearSweeps'", 1)
-    else:
-        sleepMillis(500)
+    varAmp = osci.WriteString(commandString, 1)
+    sleepMillis(50)
+    varAmp = osci.ReadString(100)
+    osci.WriteString("VBS? 'return=app.WaitUntilIdle(20)'", 1)
+    osci.WriteString("*OPC?", 1)
+    currentDeltaTime += float(varAmp)
 
-assert currentDeltaTime != 0, 'Unable to measure delay with std less than max_std_ps after the maximum number of iterations.'
+currentDeltaTime = currentDeltaTime / calOptions.numAverages
 
 return currentDeltaTime
 '''
