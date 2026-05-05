@@ -279,7 +279,7 @@ resultFolderCreator1._showInList = False
 ## Check Version
 iesp = getIespInstance()
 # Connect to scope
-osci = initScope(calOptions.scopeIPAddress)
+osci = initScope(valOptions.scopeIPAddress)
 fail = 0
 # Initialize TX Channel List
 formFactor = iesp.__class__.__name__

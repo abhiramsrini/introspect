@@ -44,19 +44,46 @@ calOptions.calChannels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 calOptions.commonModeValues = [0.0, 500.0, 1000.0, 1500.0, 2000.0, 2500.0]
 calOptions.amplitudeValues = [1100.0, 750.0, 500.0, 250.0, 100.0]
 calOptions.callCustomInitMethod()
-initScope.args = ''
-initScope.code = r'''scope1.address = calOptions.scopeIPAddress
-scope1.connect()
-scope1.reset()
+initScope.args = 'scopeIpAddress'
+initScope.code = r'''import pyvisa as visa
+#connect to scope
+import win32com.client
+osci=win32com.client.Dispatch("LeCroy.ActiveDSOCtrl.1")
+import time
+osci.MakeConnection("IP:169.254.197.102")
+osci.WriteString("buzz beep", 1)
+osci.WriteString("VBS 'app.SetToDefaultSetup'", 1)
+osci.WriteString("*OPC?", 1)
 
-# Set timebase to proper value
-scope1.setTimeScale(5e-8)
+#osci.read_termination = '\n'
+#osci.write_termination = '\n'
+#osci.timeout = calOptions.scopeConnectionTimeout
 
-# Make sure all skew are at 0. This is not reset by default
-scope1.sendCommand(":CALibrate:SKEW CHANnel1,0")
-scope1.sendCommand(":CALibrate:SKEW CHANnel2,0")
-scope1.sendCommand(":CALibrate:SKEW CHANnel3,0")
-scope1.sendCommand(":CALibrate:SKEW CHANnel4,0")
+# Converted Keysight-specific commands to Teledyne LeCroy equivalents
+
+# osci.write(":CALibrate:SKEW CHANnel1,0")
+
+osci.WriteString("VBS 'app.Acquisition.C1.Deskew = 0'", 1)
+osci.WriteString("VBS 'app.Acquisition.C2.Deskew = 0'", 1)
+osci.WriteString("VBS 'app.Acquisition.C3.Deskew = 0'", 1)
+osci.WriteString("VBS 'app.Acquisition.C4.Deskew = 0'", 1)
+
+osci.WriteString("VBS 'app.Acquisition.C1.View = 1'", 1)
+osci.WriteString("VBS 'app.Acquisition.C2.View = 1'", 1)
+osci.WriteString("VBS 'app.Acquisition.C3.View = 1'", 1)
+
+
+osci.WriteString("VBS 'app.Acquisition.C1.Coupling = 0'", 1)
+osci.WriteString("VBS 'app.Acquisition.C2.Coupling = 0'", 1)
+osci.WriteString("VBS 'app.Acquisition.C3.Coupling = 0'", 1)
+osci.WriteString("VBS? 'return=app.WaitUntilIdle(5)'", 1)
+osci.WriteString("*OPC?", 1)
+
+osci.writestring("VBS 'app.Acquisition.Horizontal.HorScale = 5e-8'", 1) # VERIFY DURING TEST
+
+time.sleep(10)
+
+return osci
 '''
 initScope.wantAllVarsGlobal = False
 
@@ -222,7 +249,7 @@ resultFolderCreator1._showInList = False
 import numpy as np
 
 # Connect to scope
-initScope()
+osci = initScope(calOptions.scopeIPAddress)
 iesp = getIespInstance()
 iesp.setLimitMaximum("txCommonModeVoltage", 2500)
 iesp.setLimitMinimum("txCommonModeVoltage", 0)
@@ -321,10 +348,58 @@ for (chA,chB) in channelOrder:
             txChannelList1.voltageSwings = [progVAmp]
             txChannelList1.update()
 
-            vCmResults = vCmMeasurement.run()
-            scope1._resetAllMeasurements()
-            vAmpResults = vAmpMeasurement.run()
-            scope1._resetAllMeasurements()
+            osci.WriteString("VBS 'app.Autoset.FindAllVerScale'", 1)
+            osci.WriteString("VBS? 'return=app.WaitUntilIdle(5)'", 1)
+            osci.ReadString(500)
+            osci.WriteString("VBS 'app.Autoset.DoAutosetup'", 1)
+            osci.WriteString("*OPC?", 1)
+            osci.ReadString(500)
+
+            osci.WriteString("VBS 'app.Measure.ClearSweeps'", 1)
+            osci.WriteString("VBS 'app.Acquisition.Horizontal.HorScale = 5e-8'", 1)
+            iesp.setMeasurementTimeout(60000)
+
+            sleepMillis(100)
+            osci.WriteString("VBS 'app.Measure.ShowMeasure = True'", 1)
+            osci.WriteString("VBS 'app.Measure.StatsOn = True'", 1)
+
+            osci.WriteString("VBS 'app.Measure.P1.Source1 = \"C1\"'", 1)
+            osci.WriteString("VBS 'app.Measure.P1.ParamEngine = \"Mean\"'", 1)
+            osci.WriteString("VBS 'app.Measure.P2.Source1 = \"C1\"'", 1)
+            osci.WriteString("VBS 'app.Measure.P2.ParamEngine = \"Amplitude\"'", 1)
+
+            osci.WriteString("VBS? 'return=app.WaitUntilIdle(5)'", 1)
+            osci.ReadString(500)
+            sleepMillis(2000)
+
+            vCmResults = dict()
+            vAmpResults = dict()
+
+            for channel in [1, 2, 3, 4]:
+                channelString = "C%d" % channel
+                chanKey = "CHAN%d" % channel
+
+                osci.WriteString("VBS 'app.Measure.P1.Source1 = \"%s\"'" % channelString, 1)
+                osci.WriteString("VBS 'app.Measure.ClearSweeps'", 1)
+                sleepMillis(500)
+                osci.WriteString("VBS? 'return=app.Measure.P1.Out.Result.Mean'", 1)
+                varAverage = osci.ReadString(500)
+                try:
+                    vCmResults[chanKey] = {'mean': float(varAverage.strip())}
+                except ValueError:
+                    pass
+
+                osci.WriteString("VBS 'app.Measure.P2.Source1 = \"%s\"'" % channelString, 1)
+                osci.WriteString("VBS 'app.Measure.ClearSweeps'", 1)
+                sleepMillis(500)
+                osci.WriteString("VBS? 'return=app.Measure.P2.Out.Result.Mean'", 1)
+                varAmp = osci.ReadString(500)
+                try:
+                    vAmpResults[chanKey] = {'mean': float(varAmp.strip())}
+                except ValueError:
+                    pass
+
+            osci.WriteString("VBS 'app.Measure.ClearSweeps'", 1)
 
             vCmResultsByCh[chA][progVCm][progVAmp] = dict()
             vCmResultsByCh[chB][progVCm][progVAmp] = dict()
