@@ -50,7 +50,7 @@ initScope.code = r'''import pyvisa as visa
 import win32com.client
 osci=win32com.client.Dispatch("LeCroy.ActiveDSOCtrl.1")
 import time
-osci.MakeConnection("IP:169.254.197.102")
+osci.MakeConnection("IP:169.254.53.71")
 osci.WriteString("buzz beep", 1)
 osci.WriteString("VBS 'app.SetToDefaultSetup'", 1)
 osci.WriteString("*OPC?", 1)
@@ -71,7 +71,7 @@ osci.WriteString("VBS 'app.Acquisition.C4.Deskew = 0'", 1)
 osci.WriteString("VBS 'app.Acquisition.C1.View = 1'", 1)
 osci.WriteString("VBS 'app.Acquisition.C2.View = 1'", 1)
 osci.WriteString("VBS 'app.Acquisition.C3.View = 1'", 1)
-
+osci.WriteString("VBS 'app.Acquisition.C4.View = 1'", 1)
 
 osci.WriteString("VBS 'app.Acquisition.C1.Coupling = 0'", 1)
 osci.WriteString("VBS 'app.Acquisition.C2.Coupling = 0'", 1)
@@ -382,8 +382,9 @@ for (chA,chB) in channelOrder:
                 osci.WriteString("VBS 'app.Measure.P1.Source1 = \"%s\"'" % channelString, 1)
                 osci.WriteString("VBS 'app.Measure.ClearSweeps'", 1)
                 sleepMillis(500)
-                osci.WriteString("VBS? 'return=app.Measure.P1.Out.Result.Mean'", 1)
+                osci.WriteString("VBS? 'return=app.Measure.P1.mean.Result.Value'", 1)
                 varAverage = osci.ReadString(500)
+                print(varAverage)
                 try:
                     vCmResults[chanKey] = {'mean': float(varAverage.strip())}
                 except ValueError:
@@ -392,8 +393,9 @@ for (chA,chB) in channelOrder:
                 osci.WriteString("VBS 'app.Measure.P2.Source1 = \"%s\"'" % channelString, 1)
                 osci.WriteString("VBS 'app.Measure.ClearSweeps'", 1)
                 sleepMillis(500)
-                osci.WriteString("VBS? 'return=app.Measure.P2.Out.Result.Mean'", 1)
+                osci.WriteString("VBS? 'return=app.Measure.P2.mean.Result.Value'", 1)
                 varAmp = osci.ReadString(500)
+                print(varAmp)
                 try:
                     vAmpResults[chanKey] = {'mean': float(varAmp.strip())}
                 except ValueError:

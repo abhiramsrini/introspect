@@ -50,7 +50,7 @@ sleepMillis(100)
 
 #Set timebase to proper value
 print("Setting timebase to 100 ps")
-osci.writestring("VBS 'app.Acquisition.Horizontal.HorScale = 100e-012'", 1)
+osci.writestring("VBS 'app.Acquisition.Horizontal.HorScale = 500e-12'", 1)
 iesp.setMeasurementTimeout(60000)
 osci.writestring("VBS 'app.Acquisition.Trigger.C1Slope = 0'", 1)
 
@@ -89,7 +89,7 @@ initScope.code = r'''import pyvisa
 #connect to scope
 import win32com.client
 osci=win32com.client.Dispatch("LeCroy.ActiveDSOCtrl.1")
-osci.MakeConnection("IP:169.254.197.102")
+osci.MakeConnection("IP:192.168.254.106")
 osci.WriteString("buzz beep", 1)
 osci.WriteString("VBS 'app.SetToDefaultSetup'", 1)
 osci.WriteString("*OPC?", 1)
@@ -110,6 +110,13 @@ osci.WriteString("VBS 'app.Acquisition.C1.Deskew = 0'", 1)
 osci.WriteString("VBS 'app.Acquisition.C2.Deskew = 0'", 1)
 osci.WriteString("VBS 'app.Acquisition.C3.Deskew = 0'", 1)
 osci.WriteString("VBS 'app.Acquisition.C4.Deskew = 0'", 1)
+
+# Setting the channels to 50 Ohm coupling
+print("Setting 50 Ohm coupling")
+osci.WriteString("VBS 'app.Acquisition.C1.Coupling = 0'", 1)
+osci.WriteString("VBS 'app.Acquisition.C2.Coupling = 0'", 1)
+osci.WriteString("VBS 'app.Acquisition.C3.Coupling = 0'", 1)
+osci.WriteString("VBS 'app.Acquisition.C4.Coupling = 0'", 1)
 
 # Configure the Measurement Parameter
 osci.WriteString("VBS 'app.Measure.P1.MeasurementType = 0'", 1)
