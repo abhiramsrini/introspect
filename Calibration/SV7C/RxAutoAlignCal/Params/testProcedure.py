@@ -1,9 +1,9 @@
 # SVT Test
-# SVT version 24.3.b14
-# Test saved 2024-07-25_1411
+# SVT version 25.2.0
+# Test saved 2025-08-13_1423
 # Form factor: SV7C_16C17G
 # PY3
-# Checksum: 743b8b7066b8a59094b5c3894cfd70ef
+# Checksum: 9a11fae5fed297f378c2ed067d2fc8df
 # Note: This file is the 'Save' file for the Test.
 #       It should not be used as a standalone Python script.
 #       But it can be used via 'runSvtTest.py'.
@@ -202,11 +202,11 @@ for dataRate in sorted(calOptions.dataRates) :
 
     # Override rx alignment data in the firmware with the calculated skew
     for channel in channels :
-        success = iesp.writeSubPartRegister(0x0232, None, int(0x00001<<(channel-1)))
-        if (success == True) :
-            success = iesp.writeSubPartRegister(0x0441, None, int(phaseOffsetsByDataRate[dataRate][channel]*1000))
-            iesp.waitForCommandProcessors()
-    iesp.writeSubPartRegister(0x0232, None, channelMask)
+        #success = iesp.writeSubPartRegister(0x0232, None, int(0x00001<<(channel-1)))
+        #if (success == True) :
+        iesp.writeSubPartRegister(0x0441, int(0x00001<<(channel-1)), int(phaseOffsetsByDataRate[dataRate][channel]*1000))
+        iesp.waitForCommandProcessors()
+    #iesp.writeSubPartRegister(0x0232, None, channelMask)
 
     # Check if the skew correction worked
     patternSync1.syncMethod = 'syncWithCentering'
